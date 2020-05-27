@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -17,6 +17,8 @@ $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5F19AF3F
 P 1000 1650
+AR Path="/5ECD2614/5F19AF3F" Ref="J?"  Part="1" 
+AR Path="/5ECD2614/5EDAAD18/5F19AF3F" Ref="J?"  Part="1" 
 F 0 "J?" H 918 1325 50  0000 C CNN
 F 1 "7-17 V IN" V 1125 1600 50  0000 C CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1000 1650 50  0001 C CNN
@@ -52,6 +54,8 @@ $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5F19AF70
 P 2250 1300
+AR Path="/5ECD2614/5F19AF70" Ref="FB?"  Part="1" 
+AR Path="/5ECD2614/5EDAAD18/5F19AF70" Ref="FB?"  Part="1" 
 F 0 "FB?" V 2013 1300 50  0000 C CNN
 F 1 "330 Ohm" V 2104 1300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 2180 1300 50  0001 C CNN
@@ -86,6 +90,8 @@ $Comp
 L Device:C C?
 U 1 1 5F19AF91
 P 3200 1550
+AR Path="/5ECD2614/5F19AF91" Ref="C?"  Part="1" 
+AR Path="/5ECD2614/5EDAAD18/5F19AF91" Ref="C?"  Part="1" 
 F 0 "C?" H 3315 1596 50  0000 L CNN
 F 1 "100nF 25 V" H 3315 1505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3238 1400 50  0001 C CNN
@@ -136,6 +142,8 @@ $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5F19AFB6
 P 5800 1300
+AR Path="/5ECD2614/5F19AFB6" Ref="#FLG?"  Part="1" 
+AR Path="/5ECD2614/5EDAAD18/5F19AFB6" Ref="#FLG?"  Part="1" 
 F 0 "#FLG?" H 5800 1375 50  0001 C CNN
 F 1 "PWR_FLAG" V 5800 1625 50  0000 C CNN
 F 2 "" H 5800 1300 50  0001 C CNN
@@ -255,6 +263,8 @@ $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5F19AF7B
 P 2250 1900
+AR Path="/5ECD2614/5F19AF7B" Ref="FB?"  Part="1" 
+AR Path="/5ECD2614/5EDAAD18/5F19AF7B" Ref="FB?"  Part="1" 
 F 0 "FB?" V 2013 1900 50  0000 C CNN
 F 1 "330 Ohm" V 2104 1900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 2180 1900 50  0001 C CNN

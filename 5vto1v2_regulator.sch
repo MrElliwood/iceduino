@@ -1,0 +1,322 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TLV62568APDRLR:TLV62568APDRLR U?
+U 1 1 5F68EB6F
+P 2650 2050
+AR Path="/5ECD2614/5F68EB6F" Ref="U?"  Part="1" 
+AR Path="/5ECD2614/5F6750DD/5F68EB6F" Ref="U?"  Part="1" 
+F 0 "U?" H 2650 2515 50  0000 C CNN
+F 1 "TLV62568APDRLR" H 2650 2424 50  0000 C CNN
+F 2 "footprints:Texas_DRL_SOT-563_1.6x1.6mm_0.5mm-pitch_footprint" H 2650 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv62568a.pdf" H 2650 1750 50  0001 C CNN
+F 4 "IC REG BUCK ADJUSTABLE 1A SOT563" H -125 -5300 50  0001 C CNN "Description"
+F 5 "296-51691-1-ND" H -125 -5300 50  0001 C CNN "Digikey"
+F 6 "Texas Instruments" H -125 -5300 50  0001 C CNN "Mfg Name"
+F 7 "TLV62568APDRLR" H -125 -5300 50  0001 C CNN "Mfg Part Num"
+F 8 "Spec" H -125 -5300 50  0001 C CNN "Spec"
+	1    2650 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F68EB7A
+P 1100 2100
+AR Path="/5ECD2614/5F68EB7A" Ref="C?"  Part="1" 
+AR Path="/5ECD2614/5F6750DD/5F68EB7A" Ref="C?"  Part="1" 
+F 0 "C?" H 1215 2146 50  0000 L CNN
+F 1 "10 uF 6,3 V" H 1215 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1138 1950 50  0001 C CNN
+F 3 "~" H 1100 2100 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 1100 2100 50  0001 C CNN "Mfg Name"
+F 5 "CL10A106MQ8NNNC" H 1100 2100 50  0001 C CNN "Mfg Part Num"
+F 6 "1276-1119-1-ND" H 1100 2100 50  0001 C CNN "Digikey"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 1100 2100 50  0001 C CNN "Description"
+F 8 "Any" H -150 -5250 50  0001 C CNN "Spec"
+	1    1100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F68EB85
+P 3750 2100
+AR Path="/5ECD2614/5F68EB85" Ref="C?"  Part="1" 
+AR Path="/5ECD2614/5F6750DD/5F68EB85" Ref="C?"  Part="1" 
+F 0 "C?" H 3865 2146 50  0000 L CNN
+F 1 "10 uF 6,3 V" H 3865 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3788 1950 50  0001 C CNN
+F 3 "~" H 3750 2100 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 3750 2100 50  0001 C CNN "Mfg Name"
+F 5 "CL10A106MQ8NNNC" H 3750 2100 50  0001 C CNN "Mfg Part Num"
+F 6 "1276-1119-1-ND" H 3750 2100 50  0001 C CNN "Digikey"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 3750 2100 50  0001 C CNN "Description"
+F 8 "Any" H -175 -5275 50  0001 C CNN "Spec"
+	1    3750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F68EB90
+P 5100 2100
+AR Path="/5ECD2614/5F68EB90" Ref="R?"  Part="1" 
+AR Path="/5ECD2614/5F6750DD/5F68EB90" Ref="R?"  Part="1" 
+F 0 "R?" H 5170 2146 50  0000 L CNN
+F 1 "100k 1%" H 5170 2055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5030 2100 50  0001 C CNN
+F 3 "~" H 5100 2100 50  0001 C CNN
+F 4 "RES SMD 100K OHM 1% 1/10W 0603" H -175 -5275 50  0001 C CNN "Description"
+F 5 "311-100KHRCT-ND" H -175 -5275 50  0001 C CNN "Digikey"
+F 6 "Yageo" H -175 -5275 50  0001 C CNN "Mfg Name"
+F 7 "RC0603FR-07100KL" H -175 -5275 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -175 -5275 50  0001 C CNN "Spec"
+	1    5100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F68EB9B
+P 5100 2500
+AR Path="/5ECD2614/5F68EB9B" Ref="R?"  Part="1" 
+AR Path="/5ECD2614/5F6750DD/5F68EB9B" Ref="R?"  Part="1" 
+F 0 "R?" H 5170 2546 50  0000 L CNN
+F 1 "100k 1%" H 5170 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5030 2500 50  0001 C CNN
+F 3 "~" H 5100 2500 50  0001 C CNN
+F 4 "RES SMD 100K OHM 1% 1/10W 0603" H -175 -5300 50  0001 C CNN "Description"
+F 5 "311-100KHRCT-ND" H -175 -5300 50  0001 C CNN "Digikey"
+F 6 "Yageo" H -175 -5300 50  0001 C CNN "Mfg Name"
+F 7 "RC0603FR-07100KL" H -175 -5300 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -175 -5300 50  0001 C CNN "Spec"
+	1    5100 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2750 5100 2650
+Wire Wire Line
+	5100 2350 5100 2300
+Wire Wire Line
+	4450 2350 4450 2250
+Wire Wire Line
+	3750 2350 3750 2250
+Text Label 5425 2300 2    50   ~ 0
+FB_1V2
+Connection ~ 5100 2300
+Wire Wire Line
+	5100 2300 5100 2250
+Text Label 3350 2050 2    50   ~ 0
+FB_1V2
+Wire Wire Line
+	2650 2650 2650 2550
+Wire Wire Line
+	1100 2300 1100 2250
+$Comp
+L Device:L L?
+U 1 1 5F68EBC9
+P 3500 1850
+AR Path="/5ECD2614/5F68EBC9" Ref="L?"  Part="1" 
+AR Path="/5ECD2614/5F6750DD/5F68EBC9" Ref="L?"  Part="1" 
+F 0 "L?" V 3690 1850 50  0000 C CNN
+F 1 "1u" V 3599 1850 50  0000 C CNN
+F 2 "footprints:L_1008_2520Metric_2.5x2mm_footprint" H 3500 1850 50  0001 C CNN
+F 3 "https://www.yuden.co.jp/productdata/catalog/wound10_e.pdf" H 3500 1850 50  0001 C CNN
+F 4 "Taiyo Yuden" H 3500 1850 50  0001 C CNN "Mfg Name"
+F 5 "MAMK2520T1R0M" H 3500 1850 50  0001 C CNN "Mfg Part Num"
+F 6 "587-3225-1-ND" H 3500 1850 50  0001 C CNN "Digikey"
+F 7 "FIXED IND 1UH 2.7A 59 MOHM SMD" H 3500 1850 50  0001 C CNN "Description"
+F 8 "Spec" H -175 -5300 50  0001 C CNN "Spec"
+	1    3500 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 1850 3350 1850
+Wire Wire Line
+	3650 1850 3750 1850
+Wire Wire Line
+	3750 1850 3750 1950
+Wire Wire Line
+	4450 1950 4450 1850
+Wire Wire Line
+	4450 1850 3750 1850
+Connection ~ 3750 1850
+Wire Wire Line
+	5100 1950 5100 1850
+Wire Wire Line
+	5100 1850 4450 1850
+Connection ~ 4450 1850
+Wire Wire Line
+	1100 1950 1100 1850
+$Comp
+L Device:C C?
+U 1 1 5F68EBDE
+P 5600 2050
+AR Path="/5ECD2614/5F68EBDE" Ref="C?"  Part="1" 
+AR Path="/5ECD2614/5F6750DD/5F68EBDE" Ref="C?"  Part="1" 
+F 0 "C?" H 5715 2096 50  0000 L CNN
+F 1 "10pF 6,3 V" H 5715 2005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5638 1900 50  0001 C CNN
+F 3 "~" H 5600 2050 50  0001 C CNN
+F 4 "CAP CER 10PF 50V C0G/NP0 0603" H -175 -5300 50  0001 C CNN "Description"
+F 5 "1276-1027-1-ND" H -175 -5300 50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H -175 -5300 50  0001 C CNN "Mfg Name"
+F 7 "CL10C100JB8NNNC" H -175 -5300 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -175 -5300 50  0001 C CNN "Spec"
+	1    5600 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2200 5600 2300
+Wire Wire Line
+	5100 2300 5600 2300
+Wire Wire Line
+	5600 1900 5600 1850
+Connection ~ 5100 1850
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5F68EBE8
+P 5300 1800
+AR Path="/5ECD2614/5F68EBE8" Ref="#FLG?"  Part="1" 
+AR Path="/5ECD2614/5F6750DD/5F68EBE8" Ref="#FLG?"  Part="1" 
+F 0 "#FLG?" H 5300 1875 50  0001 C CNN
+F 1 "PWR_FLAG" V 5300 2125 50  0000 C CNN
+F 2 "" H 5300 1800 50  0001 C CNN
+F 3 "~" H 5300 1800 50  0001 C CNN
+	1    5300 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1750 1100 1850
+Connection ~ 1100 1850
+Wire Wire Line
+	1100 1850 2200 1850
+$Comp
+L Device:R R?
+U 1 1 5F68EC06
+P 5850 1850
+AR Path="/5ECD2614/5F68EC06" Ref="R?"  Part="1" 
+AR Path="/5ECD2614/5F6750DD/5F68EC06" Ref="R?"  Part="1" 
+F 0 "R?" V 5643 1850 50  0000 C CNN
+F 1 "0" V 5734 1850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5780 1850 50  0001 C CNN
+F 3 "~" H 5850 1850 50  0001 C CNN
+F 4 "RES SMD 0 OHM JUMPER 1/8W 0805" H -175 -5300 50  0001 C CNN "Description"
+F 5 "311-0.0ARCT-ND" H -175 -5300 50  0001 C CNN "Digikey"
+F 6 "Yageo" H -175 -5300 50  0001 C CNN "Mfg Name"
+F 7 "RC0805JR-070RL" H -175 -5300 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -175 -5300 50  0001 C CNN "Spec"
+	1    5850 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 1850 5600 1850
+Connection ~ 5600 1850
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5F68EC0E
+P 6300 1750
+AR Path="/5ECD2614/5F68EC0E" Ref="#FLG?"  Part="1" 
+AR Path="/5ECD2614/5F6750DD/5F68EC0E" Ref="#FLG?"  Part="1" 
+F 0 "#FLG?" H 6300 1825 50  0001 C CNN
+F 1 "PWR_FLAG" V 6300 2075 50  0000 C CNN
+F 2 "" H 6300 1750 50  0001 C CNN
+F 3 "~" H 6300 1750 50  0001 C CNN
+	1    6300 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1850 5300 1850
+Wire Wire Line
+	5300 1800 5300 1850
+Connection ~ 5300 1850
+Wire Wire Line
+	5300 1850 5600 1850
+Wire Wire Line
+	6300 1850 6300 1750
+Text Notes 6475 1550 0    50   ~ 0
+In case of noise in the 1.2 V net,\nreplace this resistor R30 with an inductor\nor an ferrite bead
+Text Label 4500 1850 0    50   ~ 0
+1V2_REG
+$Comp
+L Device:C C?
+U 1 1 5F68EC24
+P 4450 2100
+AR Path="/5ECD2614/5F68EC24" Ref="C?"  Part="1" 
+AR Path="/5ECD2614/5F6750DD/5F68EC24" Ref="C?"  Part="1" 
+F 0 "C?" H 4565 2146 50  0000 L CNN
+F 1 "10 uF 6,3 V" H 4565 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4488 1950 50  0001 C CNN
+F 3 "~" H 4450 2100 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 4450 2100 50  0001 C CNN "Mfg Name"
+F 5 "CL10A106MQ8NNNC" H 4450 2100 50  0001 C CNN "Mfg Part Num"
+F 6 "1276-1119-1-ND" H 4450 2100 50  0001 C CNN "Digikey"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 4450 2100 50  0001 C CNN "Description"
+F 8 "Any" H -175 -5275 50  0001 C CNN "Spec"
+	1    4450 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F68EC2F
+P 6300 2100
+AR Path="/5ECD2614/5F68EC2F" Ref="C?"  Part="1" 
+AR Path="/5ECD2614/5F6750DD/5F68EC2F" Ref="C?"  Part="1" 
+F 0 "C?" H 6415 2146 50  0000 L CNN
+F 1 "10 uF 6,3 V" H 6415 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6338 1950 50  0001 C CNN
+F 3 "~" H 6300 2100 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 6300 2100 50  0001 C CNN "Mfg Name"
+F 5 "CL10A106MQ8NNNC" H 6300 2100 50  0001 C CNN "Mfg Part Num"
+F 6 "1276-1119-1-ND" H 6300 2100 50  0001 C CNN "Digikey"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 6300 2100 50  0001 C CNN "Description"
+F 8 "Any" H -150 -5275 50  0001 C CNN "Spec"
+	1    6300 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 1950 6300 1850
+Connection ~ 6300 1850
+Wire Wire Line
+	6300 2350 6300 2250
+Text Notes 3400 1250 0    197  ~ 0
+1,2 V 1 A
+Text HLabel 2200 2050 0    50   Input ~ 0
+EN_LOW_VOLTAGE
+Text HLabel 1100 1750 1    50   Input ~ 0
+5V_IN
+Text HLabel 1100 2300 3    50   Output ~ 0
+GND
+Text HLabel 2650 2650 3    50   Output ~ 0
+GND
+Text HLabel 3750 2350 3    50   Output ~ 0
+GND
+Text HLabel 4450 2350 3    50   Output ~ 0
+GND
+Text HLabel 5100 2750 3    50   Output ~ 0
+GND
+Text HLabel 6300 2350 3    50   Output ~ 0
+GND
+Wire Wire Line
+	6000 1850 6300 1850
+Text HLabel 6600 1850 2    50   Output ~ 0
+1V2_1A_OUT
+Wire Wire Line
+	6300 1850 6600 1850
+Text HLabel 3250 2250 2    50   BiDi ~ 0
+PG
+Wire Wire Line
+	3100 2250 3250 2250
+Wire Wire Line
+	3100 2050 3350 2050
+$EndSCHEMATC
