@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:ice40_breakout-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 6
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -20,6 +19,7 @@ U 6 1 5CAC0C63
 P 13650 7850
 AR Path="/5CAC0C63" Ref="U1"  Part="6" 
 AR Path="/5CA8FBC7/5CAC0C63" Ref="U1"  Part="6" 
+AR Path="/5ECD2614/5CAC0C63" Ref="U1"  Part="6" 
 F 0 "U1" H 13650 7100 50  0000 L CNN
 F 1 "ICE40HX4K-TQ144" H 13725 8600 50  0000 L CNN
 F 2 "" H 13650 7850 50  0001 C CNN
@@ -837,264 +837,8 @@ $EndComp
 Wire Wire Line
 	1225 9025 1225 9100
 Connection ~ 1225 9100
-$Comp
-L Connector_Generic:Conn_01x02 J6
-U 1 1 5D9808D0
-P 850 1375
-F 0 "J6" H 768 1050 50  0000 C CNN
-F 1 "7-17 V IN" V 975 1325 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 850 1375 50  0001 C CNN
-F 3 "https://www.cui.com/product/resource/digikeypdf/tb007-508.pdf" H 850 1375 50  0001 C CNN
-F 4 "CUI Inc." H 850 1375 50  0001 C CNN "Mfg Name"
-F 5 "TB007-508-02BE" H 850 1375 50  0001 C CNN "Mfg Part Num"
-F 6 "102-6203-ND" H 850 1375 50  0001 C CNN "Digikey"
-F 7 "ERMINAL BLOCK, SCREW TYPE, 5.08" H 850 1375 50  0001 C CNN "Description"
-	1    850  1375
-	-1   0    0    1   
-$EndComp
 Text Notes 3550 8675 0    197  ~ 0
 3,3 V 1 A
-$Comp
-L Device:Varistor RV1
-U 1 1 5CD8A5BE
-P 1275 1325
-F 0 "RV1" H 1378 1371 50  0000 L CNN
-F 1 "CG0603MLA-18KE" V 1150 1000 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1205 1325 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/MLA.pdf" H 1275 1325 50  0001 C CNN
-F 4 "Bourns Inc." H 1275 1325 50  0001 C CNN "Mfg Name"
-F 5 "CG0603MLA-18KE" H 1275 1325 50  0001 C CNN "Mfg Part Num"
-F 6 "CG0603MLA-18KECT-ND" H 1275 1325 50  0001 C CNN "Digikey"
-F 7 "VARISTOR 22V 30A 0603" H 1275 1325 50  0001 C CNN "Description"
-F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
-	1    1275 1325
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Varistor RV2
-U 1 1 5CD8C04B
-P 1725 1325
-F 0 "RV2" H 1828 1371 50  0000 L CNN
-F 1 "CG0603MLA-18KE" V 1575 975 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1655 1325 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/MLA.pdf" H 1725 1325 50  0001 C CNN
-F 4 "Bourns Inc." H 1725 1325 50  0001 C CNN "Mfg Name"
-F 5 "CG0603MLA-18KE" H 1725 1325 50  0001 C CNN "Mfg Part Num"
-F 6 "CG0603MLA-18KECT-ND" H 1725 1325 50  0001 C CNN "Digikey"
-F 7 "VARISTOR 22V 30A 0603" H 1725 1325 50  0001 C CNN "Description"
-F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
-	1    1725 1325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1050 1275 1050 1075
-Wire Wire Line
-	1050 1075 1275 1075
-Wire Wire Line
-	1725 1075 1725 1175
-Wire Wire Line
-	1050 1375 1050 1600
-Wire Wire Line
-	1050 1600 1275 1600
-Wire Wire Line
-	1725 1600 1725 1475
-Wire Wire Line
-	1275 1175 1275 1075
-Connection ~ 1275 1075
-Wire Wire Line
-	1275 1075 1725 1075
-Wire Wire Line
-	1275 1475 1275 1600
-Connection ~ 1275 1600
-Wire Wire Line
-	1275 1600 1725 1600
-$Comp
-L Device:Ferrite_Bead_Small FB1
-U 1 1 5CDBBC3C
-P 2100 1075
-F 0 "FB1" V 1863 1075 50  0000 C CNN
-F 1 "330 Ohm" V 1954 1075 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2030 1075 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_power_mpz2012_en.pdf" H 2100 1075 50  0001 C CNN
-F 4 "TDK Corporation" H 2100 1075 50  0001 C CNN "Mfg Name"
-F 5 "MPZ2012S331AT000" H 2100 1075 50  0001 C CNN "Mfg Part Num"
-F 6 "445-1569-1-ND" H 2100 1075 50  0001 C CNN "Digikey"
-F 7 "FERRITE BEAD 330 OHM 0805 1LN" H 2100 1075 50  0001 C CNN "Description"
-F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
-	1    2100 1075
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Ferrite_Bead_Small FB2
-U 1 1 5CDBCD5B
-P 2100 1600
-F 0 "FB2" V 1863 1600 50  0000 C CNN
-F 1 "330 Ohm" V 1954 1600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2030 1600 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_power_mpz2012_en.pdf" H 2100 1600 50  0001 C CNN
-F 4 "TDK Corporation" H 2100 1600 50  0001 C CNN "Mfg Name"
-F 5 "MPZ2012S331AT000" H 2100 1600 50  0001 C CNN "Mfg Part Num"
-F 6 "445-1569-1-ND" H 2100 1600 50  0001 C CNN "Digikey"
-F 7 "FERRITE BEAD 330 OHM 0805 1LN" H 2100 1600 50  0001 C CNN "Description"
-F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
-	1    2100 1600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2000 1600 1725 1600
-Connection ~ 1725 1600
-Wire Wire Line
-	1725 1075 2000 1075
-Connection ~ 1725 1075
-$Comp
-L Device:C C34
-U 1 1 5CEF63F9
-P 2350 1325
-F 0 "C34" H 2465 1371 50  0000 L CNN
-F 1 "10 uF 25 V" H 2465 1280 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2388 1175 50  0001 C CNN
-F 3 "~" H 2350 1325 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 2350 1325 50  0001 C CNN "Mfg Name"
-F 5 "CL21A106KAYNNNE" H 2350 1325 50  0001 C CNN "Mfg Part Num"
-F 6 "1276-2891-1-ND" H 2350 1325 50  0001 C CNN "Digikey"
-F 7 "CAP CER 10UF 25V X5R 0805" H 2350 1325 50  0001 C CNN "Description"
-F 8 "Any" H 2350 1325 50  0001 C CNN "Spec"
-	1    2350 1325
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C35
-U 1 1 5CF077AA
-P 3050 1325
-F 0 "C35" H 3165 1371 50  0000 L CNN
-F 1 "100nF 25 V" H 3165 1280 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3088 1175 50  0001 C CNN
-F 3 "~" H 3050 1325 50  0001 C CNN
-F 4 "CAP CER 0.1UF 50V X7R 0603" H 0   0   50  0001 C CNN "Description"
-F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    3050 1325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2200 1075 2350 1075
-Wire Wire Line
-	3675 1075 3675 1250
-Wire Wire Line
-	3675 1250 3800 1250
-Wire Wire Line
-	2200 1600 2350 1600
-Wire Wire Line
-	3675 1600 3675 1450
-Wire Wire Line
-	3675 1450 3800 1450
-Wire Wire Line
-	2350 1175 2350 1075
-Connection ~ 2350 1075
-Wire Wire Line
-	2350 1075 3050 1075
-Wire Wire Line
-	2350 1475 2350 1600
-Connection ~ 2350 1600
-Wire Wire Line
-	2350 1600 3050 1600
-Wire Wire Line
-	3050 1175 3050 1075
-Connection ~ 3050 1075
-Wire Wire Line
-	3050 1075 3675 1075
-Wire Wire Line
-	3050 1475 3050 1600
-Connection ~ 3050 1600
-Wire Wire Line
-	3050 1600 3675 1600
-Text Label 1325 1075 0    50   ~ 0
-V_IN
-Text Label 1350 1600 0    50   ~ 0
-GND_IN
-$Comp
-L Device:Q_PMOS_GSD Q1
-U 1 1 5CFD6BB7
-P 5275 1175
-F 0 "Q1" V 5618 1175 50  0000 C CNN
-F 1 "DMP3099L-7" V 5527 1175 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5475 1275 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/DMP3099L.pdf" H 5275 1175 50  0001 C CNN
-F 4 "Diodes Incorporated" H 5275 1175 50  0001 C CNN "Mfg Name"
-F 5 "DMP3099L-7" H 5275 1175 50  0001 C CNN "Mfg Part Num"
-F 6 "DMP3099L-7DICT-ND" H 5275 1175 50  0001 C CNN "Digikey"
-F 7 "MOSFET P-CH 30V SOT23" H 5275 1175 50  0001 C CNN "Description"
-F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
-	1    5275 1175
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C36
-U 1 1 5D0077A2
-P 4600 1325
-F 0 "C36" H 4715 1371 50  0000 L CNN
-F 1 "100nF 25 V" H 4715 1280 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4638 1175 50  0001 C CNN
-F 3 "~" H 4600 1325 50  0001 C CNN
-F 4 "CAP CER 0.1UF 50V X7R 0603" H 375 0   50  0001 C CNN "Description"
-F 5 "1276-1000-1-ND" H 375 0   50  0001 C CNN "Digikey"
-F 6 "Samsung Electro-Mechanics" H 375 0   50  0001 C CNN "Mfg Name"
-F 7 "CL10B104KB8NNNC" H 375 0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 375 0   50  0001 C CNN "Spec"
-	1    4600 1325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4200 1250 4350 1250
-Wire Wire Line
-	4350 1250 4350 1075
-Wire Wire Line
-	4350 1075 4600 1075
-Wire Wire Line
-	5275 1625 5275 1375
-Wire Wire Line
-	4600 1175 4600 1075
-Connection ~ 4600 1075
-Wire Wire Line
-	4600 1075 5075 1075
-Wire Wire Line
-	4600 1475 4600 1625
-Wire Wire Line
-	4600 1625 5275 1625
-Wire Wire Line
-	5750 1075 5650 1075
-$Comp
-L power:GND #PWR0145
-U 1 1 5D049D03
-P 5550 1675
-F 0 "#PWR0145" H 5550 1425 50  0001 C CNN
-F 1 "GND" H 5555 1502 50  0000 C CNN
-F 2 "" H 5550 1675 50  0001 C CNN
-F 3 "" H 5550 1675 50  0001 C CNN
-	1    5550 1675
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5550 1675 5550 1625
-Wire Wire Line
-	5550 1625 5275 1625
-Connection ~ 5275 1625
-$Comp
-L power:PWR_FLAG #FLG0103
-U 1 1 5D0F880E
-P 5650 1075
-F 0 "#FLG0103" H 5650 1150 50  0001 C CNN
-F 1 "PWR_FLAG" V 5650 1400 50  0000 C CNN
-F 2 "" H 5650 1075 50  0001 C CNN
-F 3 "~" H 5650 1075 50  0001 C CNN
-	1    5650 1075
-	1    0    0    -1  
-$EndComp
-Connection ~ 5650 1075
-Wire Wire Line
-	5650 1075 5475 1075
 $Comp
 L Device:D_ALT D13
 U 1 1 5D19C127
@@ -1442,41 +1186,13 @@ Wire Wire Line
 	11225 5825 11225 5750
 NoConn ~ 10075 5100
 NoConn ~ 10075 5500
-Wire Wire Line
-	4350 1450 4350 1625
-Wire Wire Line
-	4350 1625 4600 1625
-Wire Wire Line
-	4200 1450 4350 1450
-Connection ~ 4600 1625
-Text Label 2475 1075 0    50   ~ 0
-V_IN_FILTERED
-Text Label 2400 1600 0    50   ~ 0
-GND_IN_FILTERED
-Text Label 4375 1075 0    50   ~ 0
-V_IN_CHOKE
-$Comp
-L l_dlw5btm:L_DLW5BTM L3
-U 1 1 5CE854C4
-P 4000 1350
-F 0 "L3" H 4000 1631 50  0000 C CNN
-F 1 "L_DLW5BTM" H 4000 1540 50  0000 C CNN
-F 2 "footprints:L_Murata_DLW5BTM_5.00x5.00mm_footprint" H 4000 1350 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796761587742/EFLC0025.pdf" H 4000 1350 50  0001 C CNN
-F 4 "Murata Electronics North America" H 4000 1350 50  0001 C CNN "Mfg Name"
-F 5 "DLW5BTM251SQ2L" H 4000 1350 50  0001 C CNN "Mfg Part Num"
-F 6 "490-11111-1-ND" H 4000 1350 50  0001 C CNN "Digikey"
-F 7 "CMC 5A 2LN 250 OHM SMD" H 4000 1350 50  0001 C CNN "Description"
-F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
-	1    4000 1350
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C83
 U 1 1 6158EDAA
 P 13350 1500
 AR Path="/5CA8FBC7/6158EDAA" Ref="C83"  Part="1" 
 AR Path="/5CAB8B22/6158EDAA" Ref="C?"  Part="1" 
+AR Path="/5ECD2614/6158EDAA" Ref="C83"  Part="1" 
 F 0 "C83" H 13465 1546 50  0000 L CNN
 F 1 "10 uF 6,3 V" H 13465 1455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 13388 1350 50  0001 C CNN
@@ -1608,11 +1324,6 @@ F 3 "" H 6450 7625 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6450 7625 6450 7525
-Wire Wire Line
-	5725 1625 5550 1625
-Connection ~ 5550 1625
-Text GLabel 5750 1075 2    50   Output ~ 0
-V_IN_PROTECTED
 Connection ~ 8950 1750
 Wire Wire Line
 	8225 1750 8950 1750
@@ -1629,6 +1340,7 @@ U 1 1 61526BE9
 P 8225 1525
 AR Path="/5CA8FBC7/61526BE9" Ref="C84"  Part="1" 
 AR Path="/5CAB8B22/61526BE9" Ref="C?"  Part="1" 
+AR Path="/5ECD2614/61526BE9" Ref="C84"  Part="1" 
 F 0 "C84" H 8340 1571 50  0000 L CNN
 F 1 "10 uF 6,3 V" H 8340 1480 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8263 1375 50  0001 C CNN
@@ -2502,17 +2214,6 @@ F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
 	1    3525 3300
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:PWR_FLAG #FLG0108
-U 1 1 5D95862F
-P 5725 1625
-F 0 "#FLG0108" H 5725 1700 50  0001 C CNN
-F 1 "PWR_FLAG" V 5725 1950 50  0000 C CNN
-F 2 "" H 5725 1625 50  0001 C CNN
-F 3 "~" H 5725 1625 50  0001 C CNN
-	1    5725 1625
-	1    0    0    -1  
-$EndComp
 Text Notes 1200 10450 0    100  ~ 0
 Note: Use TLV62568ADRLR for 2 A
 Text Notes 3550 6550 0    197  ~ 0
@@ -2538,6 +2239,7 @@ U 1 1 5CE9322D
 P 7500 1525
 AR Path="/5CA8FBC7/5CE9322D" Ref="C90"  Part="1" 
 AR Path="/5CAB8B22/5CE9322D" Ref="C?"  Part="1" 
+AR Path="/5ECD2614/5CE9322D" Ref="C90"  Part="1" 
 F 0 "C90" H 7615 1571 50  0000 L CNN
 F 1 "10 uF 6,3 V" H 7615 1480 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7538 1375 50  0001 C CNN
@@ -2552,4 +2254,11 @@ F 8 "Any" H -725 0   50  0001 C CNN "Spec"
 $EndComp
 Connection ~ 8225 1275
 Connection ~ 8225 1750
+$Sheet
+S 850  1050 1500 850 
+U 5EDAAD18
+F0 "7-17VIN_PROTECTION" 50
+F1 "7to17vin_protection.sch" 50
+F2 "V_IN_PROTECTED" O R 2350 1450 50 
+$EndSheet
 $EndSCHEMATC
