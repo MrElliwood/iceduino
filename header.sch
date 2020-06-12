@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:ice40_breakout-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 11 14
 Title ""
 Date ""
 Rev ""
@@ -15,2315 +14,1372 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ice40hx4k:ICE40HX4K-TQ144 U1
-U 5 1 5CAC27A7
-P 10125 2325
-AR Path="/5CAC27A7" Ref="U1"  Part="5" 
-AR Path="/5CB5889B/5CAC27A7" Ref="U1"  Part="5" 
-F 0 "U1" H 10150 800 50  0000 L CNN
-F 1 "ICE40HX4K-TQ144" H 10375 3825 50  0000 L CNN
-F 2 "" H 10125 2325 50  0001 C CNN
-F 3 "" H 10125 2325 50  0001 C CNN
-F 4 "IC FPGA 107 I/O 144TQFP" H 0   0   50  0001 C CNN "Description"
-F 5 "220-1572-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Lattice Semiconductor Corporation" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "ICE40HX4K-TQ144" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
-	5    10125 2325
-	1    0    0    -1  
-$EndComp
-$Comp
-L ice40hx4k:ICE40HX4K-TQ144 U1
-U 4 1 5CAC716E
-P 2525 2100
-AR Path="/5CAC716E" Ref="U1"  Part="4" 
-AR Path="/5CB5889B/5CAC716E" Ref="U1"  Part="4" 
-F 0 "U1" H 2525 925 50  0000 L CNN
-F 1 "ICE40HX4K-TQ144" H 2800 3250 50  0000 L CNN
-F 2 "" H 2525 2100 50  0001 C CNN
-F 3 "" H 2525 2100 50  0001 C CNN
-F 4 "IC FPGA 107 I/O 144TQFP" H 0   0   50  0001 C CNN "Description"
-F 5 "220-1572-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Lattice Semiconductor Corporation" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "ICE40HX4K-TQ144" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
-	4    2525 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J2
-U 1 1 5CB7DD50
-P 1575 5925
-F 0 "J2" H 1655 5917 50  0000 L CNN
-F 1 "Conn_01x08" H 1655 5826 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 1575 5925 50  0001 C CNN
-F 3 "~" H 1575 5925 50  0001 C CNN
-F 4 "CONN HDR 8POS 0.1 GOLD PCB" H 0   0   50  0001 C CNN "Description"
-F 5 "S7041-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Sullins Connector Solutions" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "PPPC081LFBN-RC" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    1575 5925
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x06 J3
-U 1 1 5CB7EBE7
-P 1575 6775
-F 0 "J3" H 1655 6767 50  0000 L CNN
-F 1 "Conn_01x06" H 1655 6676 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 1575 6775 50  0001 C CNN
-F 3 "~" H 1575 6775 50  0001 C CNN
-F 4 "CONN HDR 6POS 0.1 GOLD PCB" H 0   0   50  0001 C CNN "Description"
-F 5 "S7039-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Sullins Connector Solutions" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "PPPC061LFBN-RC" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    1575 6775
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x10 J1
-U 1 1 5CB7F6F3
-P 2925 5875
-F 0 "J1" H 3005 5867 50  0000 L CNN
-F 1 "Conn_01x10" H 3005 5776 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical" H 2925 5875 50  0001 C CNN
-F 3 "~" H 2925 5875 50  0001 C CNN
-F 4 "CONN HDR 10POS 0.1 GOLD PCB" H 0   0   50  0001 C CNN "Description"
-F 5 "732-2859-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Wurth Electronics Inc." H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "61301011821" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    2925 5875
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J4
-U 1 1 5CB805A3
-P 2925 6875
-F 0 "J4" H 3005 6867 50  0000 L CNN
-F 1 "Conn_01x08" H 3005 6776 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 2925 6875 50  0001 C CNN
-F 3 "~" H 2925 6875 50  0001 C CNN
-F 4 "CONN HDR 8POS 0.1 GOLD PCB" H 0   0   50  0001 C CNN "Description"
-F 5 "S7041-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Sullins Connector Solutions" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "PPPC081LFBN-RC" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    2925 6875
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1375 5625
-$Comp
-L power:GND #PWR073
-U 1 1 5CBBA1EE
-P 1000 6225
-F 0 "#PWR073" H 1000 5975 50  0001 C CNN
-F 1 "GND" V 1005 6097 50  0000 R CNN
-F 2 "" H 1000 6225 50  0001 C CNN
-F 3 "" H 1000 6225 50  0001 C CNN
-	1    1000 6225
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1000 6225 1375 6225
-$Comp
-L power:GND #PWR072
-U 1 1 5CBBAC78
-P 1000 6125
-F 0 "#PWR072" H 1000 5875 50  0001 C CNN
-F 1 "GND" V 1005 5997 50  0000 R CNN
-F 2 "" H 1000 6125 50  0001 C CNN
-F 3 "" H 1000 6125 50  0001 C CNN
-	1    1000 6125
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1000 6125 1375 6125
-Text Label 975  5925 0    50   ~ 0
-INO_3V3
-Text Label 975  5825 0    50   ~ 0
-INO_RESET
-Wire Wire Line
-	975  5825 1375 5825
-Wire Wire Line
-	975  5925 1375 5925
-Text Label 975  6575 0    50   ~ 0
-INO_A0
-Wire Wire Line
-	975  6575 1375 6575
-Text Label 975  6675 0    50   ~ 0
-INO_A1
-Wire Wire Line
-	975  6675 1375 6675
-Text Label 975  6775 0    50   ~ 0
-INO_A2
-Wire Wire Line
-	975  6775 1375 6775
-Text Label 975  6875 0    50   ~ 0
-INO_A3
-Wire Wire Line
-	975  6875 1375 6875
-Text Label 975  6975 0    50   ~ 0
-INO_A4
-Wire Wire Line
-	975  6975 1375 6975
-Text Label 975  7075 0    50   ~ 0
-INO_A5
-Wire Wire Line
-	975  7075 1375 7075
-Text Label 2325 7275 0    50   ~ 0
-INO_RX
-Wire Wire Line
-	2325 7275 2725 7275
-Text Label 2325 7175 0    50   ~ 0
-INO_TX
-Wire Wire Line
-	2325 7175 2725 7175
-Text Label 2325 7075 0    50   ~ 0
-INO_D2
-Wire Wire Line
-	2325 7075 2725 7075
-Text Label 2325 6975 0    50   ~ 0
-INO_D3
-Wire Wire Line
-	2325 6975 2725 6975
-Text Label 2325 6875 0    50   ~ 0
-INO_D4
-Wire Wire Line
-	2325 6875 2725 6875
-Text Label 2325 6775 0    50   ~ 0
-INO_D5
-Wire Wire Line
-	2325 6775 2725 6775
-Text Label 2325 6675 0    50   ~ 0
-INO_D6
-Wire Wire Line
-	2325 6675 2725 6675
-Text Label 2325 6575 0    50   ~ 0
-INO_D7
-Wire Wire Line
-	2325 6575 2725 6575
-Text Label 2325 6375 0    50   ~ 0
-INO_D8
-Wire Wire Line
-	2325 6375 2725 6375
-Text Label 2325 6275 0    50   ~ 0
-INO_D9
-Wire Wire Line
-	2325 6275 2725 6275
-Text Label 2325 6175 0    50   ~ 0
-INO_SS
-Wire Wire Line
-	2325 6175 2725 6175
-Text Label 2325 6075 0    50   ~ 0
-INO_MOSI
-Wire Wire Line
-	2325 6075 2725 6075
-Text Label 2325 5975 0    50   ~ 0
-INO_MISO
-Wire Wire Line
-	2325 5975 2725 5975
-Text Label 2325 5875 0    50   ~ 0
-INO_SCK
-Wire Wire Line
-	2325 5875 2725 5875
-Text Label 2325 5575 0    50   ~ 0
-INO_SDA
-Wire Wire Line
-	2325 5575 2725 5575
-Text Label 2325 5475 0    50   ~ 0
-INO_SCL
-Wire Wire Line
-	2325 5475 2725 5475
-$Comp
-L power:GND #PWR071
-U 1 1 5CBC30DA
-P 2325 5775
-F 0 "#PWR071" H 2325 5525 50  0001 C CNN
-F 1 "GND" V 2330 5647 50  0000 R CNN
-F 2 "" H 2325 5775 50  0001 C CNN
-F 3 "" H 2325 5775 50  0001 C CNN
-	1    2325 5775
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2325 5775 2725 5775
-$Comp
-L Logic_LevelTranslator:TXS0108EPW U9
+L Logic_LevelTranslator:TXS0108EPW U12
 U 1 1 5CBD2E8C
-P 6350 5525
-F 0 "U9" H 6100 4875 50  0000 C CNN
-F 1 "TXS0108EPW" V 6325 5550 50  0000 C CNN
-F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 6350 4775 50  0001 C CNN
-F 3 "www.ti.com/lit/ds/symlink/txs0108e.pdf" H 6350 5425 50  0001 C CNN
-F 4 "IC TRNSLTR BIDIRECTIONAL 20TSSOP" H 0   0   50  0001 C CNN "Description"
-F 5 "296-23011-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Texas Instruments" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "TXS0108EPWR" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
-	1    6350 5525
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR068
-U 1 1 5CBD578B
-P 6450 4750
-F 0 "#PWR068" H 6450 4600 50  0001 C CNN
-F 1 "+5V" H 6465 4923 50  0000 C CNN
-F 2 "" H 6450 4750 50  0001 C CNN
-F 3 "" H 6450 4750 50  0001 C CNN
-	1    6450 4750
+P 7225 1650
+F 0 "U12" H 6975 1000 50  0000 C CNN
+F 1 "TXS0108EPW" V 7200 1675 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 7225 900 50  0001 C CNN
+F 3 "www.ti.com/lit/ds/symlink/txs0108e.pdf" H 7225 1550 50  0001 C CNN
+F 4 "IC TRNSLTR BIDIRECTIONAL 20TSSOP" H 875 -3875 50  0001 C CNN "Description"
+F 5 "296-23011-1-ND" H 875 -3875 50  0001 C CNN "Digikey"
+F 6 "Texas Instruments" H 875 -3875 50  0001 C CNN "Mfg Name"
+F 7 "TXS0108EPWR" H 875 -3875 50  0001 C CNN "Mfg Part Num"
+F 8 "Spec" H 875 -3875 50  0001 C CNN "Spec"
+	1    7225 1650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6450 4750 6450 4825
-$Comp
-L power:GND #PWR070
-U 1 1 5CBD7018
-P 6350 6300
-F 0 "#PWR070" H 6350 6050 50  0001 C CNN
-F 1 "GND" H 6355 6127 50  0000 C CNN
-F 2 "" H 6350 6300 50  0001 C CNN
-F 3 "" H 6350 6300 50  0001 C CNN
-	1    6350 6300
-	1    0    0    -1  
-$EndComp
+	7325 875  7325 950 
 Wire Wire Line
-	6350 6300 6350 6225
-$Comp
-L power:+3V3 #PWR067
-U 1 1 5CBDD356
-P 6250 4750
-F 0 "#PWR067" H 6250 4600 50  0001 C CNN
-F 1 "+3V3" H 6265 4923 50  0000 C CNN
-F 2 "" H 6250 4750 50  0001 C CNN
-F 3 "" H 6250 4750 50  0001 C CNN
-	1    6250 4750
-	1    0    0    -1  
-$EndComp
+	7225 2425 7225 2350
 Wire Wire Line
-	6250 4750 6250 4825
-Text Label 7150 5325 2    50   ~ 0
+	7125 875  7125 950 
+Text Label 8025 1450 2    50   ~ 0
 INO_SDA
 Wire Wire Line
-	7150 5325 6750 5325
-Text Label 7150 5225 2    50   ~ 0
+	8025 1450 7625 1450
+Text Label 8025 1350 2    50   ~ 0
 INO_SCL
 Wire Wire Line
-	7150 5225 6750 5225
-Text Label 7150 5925 2    50   ~ 0
+	8025 1350 7625 1350
+Text Label 8025 2050 2    50   ~ 0
 INO_D8
 Wire Wire Line
-	7150 5925 6750 5925
-Text Label 7150 5825 2    50   ~ 0
+	8025 2050 7625 2050
+Text Label 8025 1950 2    50   ~ 0
 INO_D9
 Wire Wire Line
-	7150 5825 6750 5825
-Text Label 7150 5725 2    50   ~ 0
+	8025 1950 7625 1950
+Text Label 8025 1850 2    50   ~ 0
 INO_SS
 Wire Wire Line
-	7150 5725 6750 5725
-Text Label 7150 5625 2    50   ~ 0
+	8025 1850 7625 1850
+Text Label 8025 1750 2    50   ~ 0
 INO_MOSI
 Wire Wire Line
-	7150 5625 6750 5625
-Text Label 7150 5525 2    50   ~ 0
+	8025 1750 7625 1750
+Text Label 8025 1650 2    50   ~ 0
 INO_MISO
 Wire Wire Line
-	7150 5525 6750 5525
-Text Label 7150 5425 2    50   ~ 0
+	8025 1650 7625 1650
+Text Label 8025 1550 2    50   ~ 0
 INO_SCK
 Wire Wire Line
-	7150 5425 6750 5425
+	8025 1550 7625 1550
 $Comp
-L Logic_LevelTranslator:TXS0108EPW U8
+L Logic_LevelTranslator:TXS0108EPW U14
 U 1 1 5CC6BEA7
-P 4375 5525
-F 0 "U8" H 4125 4875 50  0000 C CNN
-F 1 "TXS0108EPW" V 4350 5550 50  0000 C CNN
-F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 4375 4775 50  0001 C CNN
-F 3 "www.ti.com/lit/ds/symlink/txs0108e.pdf" H 4375 5425 50  0001 C CNN
-F 4 "IC TRNSLTR BIDIRECTIONAL 20TSSOP" H 0   0   50  0001 C CNN "Description"
-F 5 "296-23011-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Texas Instruments" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "TXS0108EPWR" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
-	1    4375 5525
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR066
-U 1 1 5CC6BEB1
-P 4475 4750
-F 0 "#PWR066" H 4475 4600 50  0001 C CNN
-F 1 "+5V" H 4490 4923 50  0000 C CNN
-F 2 "" H 4475 4750 50  0001 C CNN
-F 3 "" H 4475 4750 50  0001 C CNN
-	1    4475 4750
+P 9975 1550
+F 0 "U14" H 9725 900 50  0000 C CNN
+F 1 "TXS0108EPW" V 9950 1575 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 9975 800 50  0001 C CNN
+F 3 "www.ti.com/lit/ds/symlink/txs0108e.pdf" H 9975 1450 50  0001 C CNN
+F 4 "IC TRNSLTR BIDIRECTIONAL 20TSSOP" H 5600 -3975 50  0001 C CNN "Description"
+F 5 "296-23011-1-ND" H 5600 -3975 50  0001 C CNN "Digikey"
+F 6 "Texas Instruments" H 5600 -3975 50  0001 C CNN "Mfg Name"
+F 7 "TXS0108EPWR" H 5600 -3975 50  0001 C CNN "Mfg Part Num"
+F 8 "Spec" H 5600 -3975 50  0001 C CNN "Spec"
+	1    9975 1550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4475 4750 4475 4825
-$Comp
-L power:GND #PWR069
-U 1 1 5CC6BEBC
-P 4375 6300
-F 0 "#PWR069" H 4375 6050 50  0001 C CNN
-F 1 "GND" H 4380 6127 50  0000 C CNN
-F 2 "" H 4375 6300 50  0001 C CNN
-F 3 "" H 4375 6300 50  0001 C CNN
-	1    4375 6300
-	1    0    0    -1  
-$EndComp
+	10075 775  10075 850 
 Wire Wire Line
-	4375 6300 4375 6225
-$Comp
-L power:+3V3 #PWR065
-U 1 1 5CC6BEC7
-P 4275 4750
-F 0 "#PWR065" H 4275 4600 50  0001 C CNN
-F 1 "+3V3" H 4290 4923 50  0000 C CNN
-F 2 "" H 4275 4750 50  0001 C CNN
-F 3 "" H 4275 4750 50  0001 C CNN
-	1    4275 4750
-	1    0    0    -1  
-$EndComp
+	9975 2325 9975 2250
 Wire Wire Line
-	4275 4750 4275 4825
-Text Label 5175 5925 2    50   ~ 0
+	9875 775  9875 850 
+Text Label 10775 1950 2    50   ~ 0
 INO_RX
 Wire Wire Line
-	5175 5925 4775 5925
-Text Label 5175 5825 2    50   ~ 0
+	10775 1950 10375 1950
+Text Label 10775 1850 2    50   ~ 0
 INO_TX
 Wire Wire Line
-	5175 5825 4775 5825
-Text Label 5175 5725 2    50   ~ 0
+	10775 1850 10375 1850
+Text Label 10775 1750 2    50   ~ 0
 INO_D2
 Wire Wire Line
-	5175 5725 4775 5725
-Text Label 5175 5625 2    50   ~ 0
+	10775 1750 10375 1750
+Text Label 10775 1650 2    50   ~ 0
 INO_D3
 Wire Wire Line
-	5175 5625 4775 5625
-Text Label 5175 5525 2    50   ~ 0
+	10775 1650 10375 1650
+Text Label 10775 1550 2    50   ~ 0
 INO_D4
 Wire Wire Line
-	5175 5525 4775 5525
-Text Label 5175 5425 2    50   ~ 0
+	10775 1550 10375 1550
+Text Label 10775 1450 2    50   ~ 0
 INO_D5
 Wire Wire Line
-	5175 5425 4775 5425
-Text Label 5175 5325 2    50   ~ 0
+	10775 1450 10375 1450
+Text Label 10775 1350 2    50   ~ 0
 INO_D6
 Wire Wire Line
-	5175 5325 4775 5325
-Text Label 5175 5225 2    50   ~ 0
+	10775 1350 10375 1350
+Text Label 10775 1250 2    50   ~ 0
 INO_D7
 Wire Wire Line
-	5175 5225 4775 5225
-Text Label 3425 5125 0    50   ~ 0
-OE0
-Wire Wire Line
-	3425 5125 3975 5125
-Text Label 5375 5125 0    50   ~ 0
-OE1
-Wire Wire Line
-	5375 5125 5950 5125
-Text Label 5375 5325 0    50   ~ 0
-FPGA_INO_SDA
-Wire Wire Line
-	5375 5325 5950 5325
-Text Label 5375 5225 0    50   ~ 0
-FPGA_INO_SCL
-Wire Wire Line
-	5375 5225 5950 5225
-Text Label 5375 5925 0    50   ~ 0
+	10775 1250 10375 1250
+Text Label 6250 2050 0    50   ~ 0
 FPGA_INO_D8
 Wire Wire Line
-	5375 5925 5950 5925
-Text Label 5375 5825 0    50   ~ 0
+	6250 2050 6825 2050
+Text Label 6250 1950 0    50   ~ 0
 FPGA_INO_D9
 Wire Wire Line
-	5375 5825 5950 5825
-Text Label 5375 5725 0    50   ~ 0
-FPGA_INO_SS
-Wire Wire Line
-	5375 5725 5950 5725
-Text Label 5375 5625 0    50   ~ 0
-FPGA_INO_MOSI
-Wire Wire Line
-	5375 5625 5950 5625
-Text Label 5375 5525 0    50   ~ 0
-FPGA_INO_MISO
-Wire Wire Line
-	5375 5525 5950 5525
-Text Label 5375 5425 0    50   ~ 0
-FPGA_INO_SCK
-Wire Wire Line
-	5375 5425 5950 5425
-Text Label 3425 5925 0    50   ~ 0
-FPGA_INO_RX
-Wire Wire Line
-	3425 5925 3975 5925
-Text Label 3425 5825 0    50   ~ 0
-FPGA_INO_TX
-Wire Wire Line
-	3425 5825 3975 5825
-Text Label 3425 5725 0    50   ~ 0
+	6250 1950 6825 1950
+Text Label 9025 1750 0    50   ~ 0
 FPGA_INO_D2
 Wire Wire Line
-	3425 5725 3975 5725
-Text Label 3425 5625 0    50   ~ 0
+	9025 1750 9575 1750
+Text Label 9025 1650 0    50   ~ 0
 FPGA_INO_D3
 Wire Wire Line
-	3425 5625 3975 5625
-Text Label 3425 5525 0    50   ~ 0
+	9025 1650 9575 1650
+Text Label 9025 1550 0    50   ~ 0
 FPGA_INO_D4
 Wire Wire Line
-	3425 5525 3975 5525
-Text Label 3425 5425 0    50   ~ 0
+	9025 1550 9575 1550
+Text Label 9025 1450 0    50   ~ 0
 FPGA_INO_D5
 Wire Wire Line
-	3425 5425 3975 5425
-Text Label 3425 5325 0    50   ~ 0
+	9025 1450 9575 1450
+Text Label 9025 1350 0    50   ~ 0
 FPGA_INO_D6
 Wire Wire Line
-	3425 5325 3975 5325
-Text Label 3425 5225 0    50   ~ 0
+	9025 1350 9575 1350
+Text Label 9025 1250 0    50   ~ 0
 FPGA_INO_D7
 Wire Wire Line
-	3425 5225 3975 5225
-Text Notes 800  5175 0    100  ~ 20
-Arduino Uno like Header\nwith 5V signal level
+	9025 1250 9575 1250
 $Comp
 L Device:R R?
 U 1 1 5CD0815D
-P 4450 7125
+P 700 5975
 AR Path="/5CAB7CD4/5CD0815D" Ref="R?"  Part="1" 
-AR Path="/5CB5889B/5CD0815D" Ref="R31"  Part="1" 
-F 0 "R31" H 4520 7171 50  0000 L CNN
-F 1 "4,7k" H 4520 7080 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4380 7125 50  0001 C CNN
-F 3 "~" H 4450 7125 50  0001 C CNN
-F 4 "RES 4.7K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
-F 5 "RMCF0603JT4K70CT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "RMCF0603JT4K70" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    4450 7125
+AR Path="/5CB5889B/5CD0815D" Ref="R?"  Part="1" 
+AR Path="/5ED96D61/5CD0815D" Ref="R42"  Part="1" 
+F 0 "R42" H 770 6021 50  0000 L CNN
+F 1 "4,7k" H 770 5930 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 630 5975 50  0001 C CNN
+F 3 "~" H 700 5975 50  0001 C CNN
+F 4 "RES 4.7K OHM 5% 1/10W 0603" H -3750 -1150 50  0001 C CNN "Description"
+F 5 "RMCF0603JT4K70CT-ND" H -3750 -1150 50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H -3750 -1150 50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT4K70" H -3750 -1150 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -3750 -1150 50  0001 C CNN "Spec"
+	1    700  5975
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5CD084F5
-P 4750 7125
+P 1000 5975
 AR Path="/5CAB7CD4/5CD084F5" Ref="R?"  Part="1" 
-AR Path="/5CB5889B/5CD084F5" Ref="R32"  Part="1" 
-F 0 "R32" H 4820 7171 50  0000 L CNN
-F 1 "4,7k" H 4820 7080 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4680 7125 50  0001 C CNN
-F 3 "~" H 4750 7125 50  0001 C CNN
-F 4 "RES 4.7K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
-F 5 "RMCF0603JT4K70CT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "RMCF0603JT4K70" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    4750 7125
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR077
-U 1 1 5CD29A18
-P 4600 7400
-F 0 "#PWR077" H 4600 7150 50  0001 C CNN
-F 1 "GND" H 4605 7227 50  0000 C CNN
-F 2 "" H 4600 7400 50  0001 C CNN
-F 3 "" H 4600 7400 50  0001 C CNN
-	1    4600 7400
+AR Path="/5CB5889B/5CD084F5" Ref="R?"  Part="1" 
+AR Path="/5ED96D61/5CD084F5" Ref="R43"  Part="1" 
+F 0 "R43" H 1070 6021 50  0000 L CNN
+F 1 "4,7k" H 1070 5930 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 930 5975 50  0001 C CNN
+F 3 "~" H 1000 5975 50  0001 C CNN
+F 4 "RES 4.7K OHM 5% 1/10W 0603" H -3750 -1150 50  0001 C CNN "Description"
+F 5 "RMCF0603JT4K70CT-ND" H -3750 -1150 50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H -3750 -1150 50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT4K70" H -3750 -1150 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -3750 -1150 50  0001 C CNN "Spec"
+	1    1000 5975
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 7275 4450 7325
+	700  6125 700  6175
 Wire Wire Line
-	4450 7325 4600 7325
+	700  6175 850  6175
 Wire Wire Line
-	4750 7325 4750 7275
+	1000 6175 1000 6125
 Wire Wire Line
-	4600 7400 4600 7325
-Connection ~ 4600 7325
+	850  6250 850  6175
+Connection ~ 850  6175
 Wire Wire Line
-	4600 7325 4750 7325
-Text Label 4450 6775 3    50   ~ 0
-OE0
+	850  6175 1000 6175
 Wire Wire Line
-	4450 6775 4450 6975
-Text Label 4750 6775 3    50   ~ 0
-OE1
+	700  5625 700  5825
 Wire Wire Line
-	4750 6775 4750 6975
+	1000 5625 1000 5825
 $Comp
 L Device:C C?
 U 1 1 5CD4ED57
-P 5650 7125
+P 1900 5975
 AR Path="/5CAB7CD4/5CD4ED57" Ref="C?"  Part="1" 
-AR Path="/5CB5889B/5CD4ED57" Ref="C27"  Part="1" 
-F 0 "C27" H 5765 7171 50  0000 L CNN
-F 1 "100nF 6,3 V" H 5765 7080 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5688 6975 50  0001 C CNN
-F 3 "~" H 5650 7125 50  0001 C CNN
-F 4 "CAP CER 0.1UF 50V X7R 0603" H 0   0   50  0001 C CNN "Description"
-F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    5650 7125
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR078
-U 1 1 5CD4F0E9
-P 5425 7400
-F 0 "#PWR078" H 5425 7150 50  0001 C CNN
-F 1 "GND" H 5430 7227 50  0000 C CNN
-F 2 "" H 5425 7400 50  0001 C CNN
-F 3 "" H 5425 7400 50  0001 C CNN
-	1    5425 7400
+AR Path="/5CB5889B/5CD4ED57" Ref="C?"  Part="1" 
+AR Path="/5ED96D61/5CD4ED57" Ref="C55"  Part="1" 
+F 0 "C55" H 2015 6021 50  0000 L CNN
+F 1 "100nF 6,3 V" H 2015 5930 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1938 5825 50  0001 C CNN
+F 3 "~" H 1900 5975 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H -3750 -1150 50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H -3750 -1150 50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H -3750 -1150 50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H -3750 -1150 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -3750 -1150 50  0001 C CNN "Spec"
+	1    1900 5975
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5175 7275 5175 7325
+	1425 6125 1425 6175
 Wire Wire Line
-	5175 7325 5425 7325
+	1425 6175 1675 6175
 Wire Wire Line
-	5650 7325 5650 7275
+	1900 6175 1900 6125
 Wire Wire Line
-	5425 7400 5425 7325
-Connection ~ 5425 7325
+	1675 6250 1675 6175
+Connection ~ 1675 6175
 Wire Wire Line
-	5425 7325 5650 7325
-$Comp
-L power:+3V3 #PWR075
-U 1 1 5CD5C356
-P 5400 6875
-F 0 "#PWR075" H 5400 6725 50  0001 C CNN
-F 1 "+3V3" H 5415 7048 50  0000 C CNN
-F 2 "" H 5400 6875 50  0001 C CNN
-F 3 "" H 5400 6875 50  0001 C CNN
-	1    5400 6875
-	1    0    0    -1  
-$EndComp
+	1675 6175 1900 6175
 Wire Wire Line
-	5175 6975 5175 6925
+	1425 5825 1425 5775
 Wire Wire Line
-	5175 6925 5400 6925
+	1425 5775 1650 5775
 Wire Wire Line
-	5650 6925 5650 6975
+	1900 5775 1900 5825
 Wire Wire Line
-	5400 6875 5400 6925
-Connection ~ 5400 6925
+	1650 5725 1650 5775
+Connection ~ 1650 5775
 Wire Wire Line
-	5400 6925 5650 6925
+	1650 5775 1900 5775
 $Comp
 L Device:C C?
 U 1 1 5CD72815
-P 6125 7125
+P 2375 5975
 AR Path="/5CAB7CD4/5CD72815" Ref="C?"  Part="1" 
-AR Path="/5CB5889B/5CD72815" Ref="C28"  Part="1" 
-F 0 "C28" H 6240 7171 50  0000 L CNN
-F 1 "100nF 6,3 V" H 6240 7080 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6163 6975 50  0001 C CNN
-F 3 "~" H 6125 7125 50  0001 C CNN
-F 4 "CAP CER 0.1UF 50V X7R 0603" H 0   0   50  0001 C CNN "Description"
-F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    6125 7125
+AR Path="/5CB5889B/5CD72815" Ref="C?"  Part="1" 
+AR Path="/5ED96D61/5CD72815" Ref="C56"  Part="1" 
+F 0 "C56" H 2490 6021 50  0000 L CNN
+F 1 "100nF 6,3 V" H 2490 5930 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2413 5825 50  0001 C CNN
+F 3 "~" H 2375 5975 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H -3750 -1150 50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H -3750 -1150 50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H -3750 -1150 50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H -3750 -1150 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -3750 -1150 50  0001 C CNN "Spec"
+	1    2375 5975
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 5CD7281F
-P 6600 7125
+P 2850 5975
 AR Path="/5CAB7CD4/5CD7281F" Ref="C?"  Part="1" 
-AR Path="/5CB5889B/5CD7281F" Ref="C29"  Part="1" 
-F 0 "C29" H 6715 7171 50  0000 L CNN
-F 1 "100nF 6,3 V" H 6715 7080 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6638 6975 50  0001 C CNN
-F 3 "~" H 6600 7125 50  0001 C CNN
-F 4 "CAP CER 0.1UF 50V X7R 0603" H 0   0   50  0001 C CNN "Description"
-F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    6600 7125
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR079
-U 1 1 5CD72829
-P 6375 7400
-F 0 "#PWR079" H 6375 7150 50  0001 C CNN
-F 1 "GND" H 6380 7227 50  0000 C CNN
-F 2 "" H 6375 7400 50  0001 C CNN
-F 3 "" H 6375 7400 50  0001 C CNN
-	1    6375 7400
+AR Path="/5CB5889B/5CD7281F" Ref="C?"  Part="1" 
+AR Path="/5ED96D61/5CD7281F" Ref="C57"  Part="1" 
+F 0 "C57" H 2965 6021 50  0000 L CNN
+F 1 "100nF 6,3 V" H 2965 5930 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2888 5825 50  0001 C CNN
+F 3 "~" H 2850 5975 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H -3750 -1150 50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H -3750 -1150 50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H -3750 -1150 50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H -3750 -1150 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -3750 -1150 50  0001 C CNN "Spec"
+	1    2850 5975
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6125 7275 6125 7325
+	2375 6125 2375 6175
 Wire Wire Line
-	6125 7325 6375 7325
+	2375 6175 2625 6175
 Wire Wire Line
-	6600 7325 6600 7275
+	2850 6175 2850 6125
 Wire Wire Line
-	6375 7400 6375 7325
-Connection ~ 6375 7325
+	2625 6250 2625 6175
+Connection ~ 2625 6175
 Wire Wire Line
-	6375 7325 6600 7325
+	2625 6175 2850 6175
 Wire Wire Line
-	6125 6975 6125 6925
+	2375 5825 2375 5775
 Wire Wire Line
-	6125 6925 6350 6925
+	2375 5775 2600 5775
 Wire Wire Line
-	6600 6925 6600 6975
+	2850 5775 2850 5825
 Wire Wire Line
-	6350 6875 6350 6925
-Connection ~ 6350 6925
+	2600 5725 2600 5775
+Connection ~ 2600 5775
 Wire Wire Line
-	6350 6925 6600 6925
-$Comp
-L power:+5V #PWR076
-U 1 1 5CD79387
-P 6350 6875
-F 0 "#PWR076" H 6350 6725 50  0001 C CNN
-F 1 "+5V" H 6365 7048 50  0000 C CNN
-F 2 "" H 6350 6875 50  0001 C CNN
-F 3 "" H 6350 6875 50  0001 C CNN
-	1    6350 6875
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR054
-U 1 1 5CD97285
-P 6375 1800
-F 0 "#PWR054" H 6375 1550 50  0001 C CNN
-F 1 "GND" V 6380 1672 50  0000 R CNN
-F 2 "" H 6375 1800 50  0001 C CNN
-F 3 "" H 6375 1800 50  0001 C CNN
-	1    6375 1800
-	0    -1   1    0   
-$EndComp
-$Comp
-L power:GND #PWR053
-U 1 1 5CD85CA5
-P 5225 1800
-F 0 "#PWR053" H 5225 1550 50  0001 C CNN
-F 1 "GND" V 5230 1672 50  0000 R CNN
-F 2 "" H 5225 1800 50  0001 C CNN
-F 3 "" H 5225 1800 50  0001 C CNN
-	1    5225 1800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5225 1800 5550 1800
-$Comp
-L power:GND #PWR056
-U 1 1 5CDD8FE0
-P 8325 1800
-F 0 "#PWR056" H 8325 1550 50  0001 C CNN
-F 1 "GND" V 8330 1672 50  0000 R CNN
-F 2 "" H 8325 1800 50  0001 C CNN
-F 3 "" H 8325 1800 50  0001 C CNN
-	1    8325 1800
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	8325 1800 7975 1800
-$Comp
-L power:GND #PWR055
-U 1 1 5CDD8FF6
-P 7150 1800
-F 0 "#PWR055" H 7150 1550 50  0001 C CNN
-F 1 "GND" V 7155 1672 50  0000 R CNN
-F 2 "" H 7150 1800 50  0001 C CNN
-F 3 "" H 7150 1800 50  0001 C CNN
-	1    7150 1800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7150 1800 7475 1800
-$Comp
-L Connector_Generic:Conn_02x06_Odd_Even PMOD2
-U 1 1 5CDD9002
-P 7675 1700
-F 0 "PMOD2" H 7725 1175 50  0000 C CNN
-F 1 "Conn_02x06_Odd_Even" H 7725 1266 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 7675 1700 50  0001 C CNN
-F 3 "~" H 7675 1700 50  0001 C CNN
-F 4 "CONN HDR 12POS 0.1 GOLD PCB R/A " H 0   0   50  0001 C CNN "Description"
-F 5 "S5559-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Sullins Connector Solutions" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "PPPC062LJBN-RC" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    7675 1700
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	7250 1400 7475 1400
-Text Label 7250 1500 0    50   ~ 0
-P2_2
-Wire Wire Line
-	7250 1500 7475 1500
-Text Label 7250 1600 0    50   ~ 0
-P3_2
-Wire Wire Line
-	7250 1600 7475 1600
-Text Label 7250 1700 0    50   ~ 0
-P4_2
-Wire Wire Line
-	7250 1700 7475 1700
-Text Label 8200 1400 2    50   ~ 0
-P7_2
-Wire Wire Line
-	8200 1400 7975 1400
-Text Label 8200 1500 2    50   ~ 0
-P8_2
-Wire Wire Line
-	8200 1500 7975 1500
-Text Label 8200 1600 2    50   ~ 0
-P9_2
-Wire Wire Line
-	8200 1600 7975 1600
-Text Label 8200 1700 2    50   ~ 0
-P10_2
-Wire Wire Line
-	8200 1700 7975 1700
-$Comp
-L power:GND #PWR062
-U 1 1 5CDF4257
-P 6400 2700
-F 0 "#PWR062" H 6400 2450 50  0001 C CNN
-F 1 "GND" V 6405 2572 50  0000 R CNN
-F 2 "" H 6400 2700 50  0001 C CNN
-F 3 "" H 6400 2700 50  0001 C CNN
-	1    6400 2700
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	6400 2700 6050 2700
-$Comp
-L power:GND #PWR061
-U 1 1 5CDF426D
-P 5175 2700
-F 0 "#PWR061" H 5175 2450 50  0001 C CNN
-F 1 "GND" V 5180 2572 50  0000 R CNN
-F 2 "" H 5175 2700 50  0001 C CNN
-F 3 "" H 5175 2700 50  0001 C CNN
-	1    5175 2700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5175 2700 5550 2700
-$Comp
-L Connector_Generic:Conn_02x06_Odd_Even PMOD3
-U 1 1 5CDF4279
-P 5750 2600
-F 0 "PMOD3" H 5800 2075 50  0000 C CNN
-F 1 "Conn_02x06_Odd_Even" H 5800 2166 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 5750 2600 50  0001 C CNN
-F 3 "~" H 5750 2600 50  0001 C CNN
-F 4 "CONN HDR 12POS 0.1 GOLD PCB R/A " H 0   0   50  0001 C CNN "Description"
-F 5 "S5559-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Sullins Connector Solutions" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "PPPC062LJBN-RC" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    5750 2600
-	1    0    0    1   
-$EndComp
-Text Label 5325 2300 0    50   ~ 0
-P1_3
-Wire Wire Line
-	5325 2300 5550 2300
-Text Label 5325 2400 0    50   ~ 0
-P2_3
-Wire Wire Line
-	5325 2400 5550 2400
-Text Label 5325 2500 0    50   ~ 0
-P3_3
-Wire Wire Line
-	5325 2500 5550 2500
-Text Label 5325 2600 0    50   ~ 0
-P4_3
-Wire Wire Line
-	5325 2600 5550 2600
-Text Label 6275 2300 2    50   ~ 0
-P7_3
-Wire Wire Line
-	6275 2300 6050 2300
-Text Label 6275 2400 2    50   ~ 0
-P8_3
-Wire Wire Line
-	6275 2400 6050 2400
-Text Label 6275 2500 2    50   ~ 0
-P9_3
-Wire Wire Line
-	6275 2500 6050 2500
-Text Label 6275 2600 2    50   ~ 0
-P10_3
-Wire Wire Line
-	6275 2600 6050 2600
-Text Label 9700 2375 0    50   ~ 0
-P2_2
-Wire Wire Line
-	9700 2375 9925 2375
-Text Label 9700 2175 0    50   ~ 0
-P3_2
-Wire Wire Line
-	9700 2175 9925 2175
-Text Label 9700 1975 0    50   ~ 0
-P4_2
-Wire Wire Line
-	9700 1975 9925 1975
-Text Label 9700 2275 0    50   ~ 0
-P7_2
-Wire Wire Line
-	9700 2275 9925 2275
-Text Label 9700 1475 0    50   ~ 0
-P8_2
-Wire Wire Line
-	9700 1475 9925 1475
-Text Label 9700 1675 0    50   ~ 0
-P9_2
-Wire Wire Line
-	9700 1675 9925 1675
-Text Label 9700 2075 0    50   ~ 0
-P1_3
-Wire Wire Line
-	9700 2075 9925 2075
-Text Label 9700 1775 0    50   ~ 0
-P2_3
-Wire Wire Line
-	9700 1775 9925 1775
-Text Label 9700 1275 0    50   ~ 0
-P3_3
-Wire Wire Line
-	9700 1275 9925 1275
-Text Label 9700 1175 0    50   ~ 0
-P4_3
-Wire Wire Line
-	9700 1175 9925 1175
-Text Label 9700 1575 0    50   ~ 0
-P7_3
-Wire Wire Line
-	9700 1575 9925 1575
-Text Label 9700 1375 0    50   ~ 0
-P8_3
-Wire Wire Line
-	9700 1375 9925 1375
-Text Label 9700 975  0    50   ~ 0
-P9_3
-Wire Wire Line
-	9700 975  9925 975 
-Text Label 9700 1075 0    50   ~ 0
-P10_3
-Wire Wire Line
-	9700 1075 9925 1075
-Text GLabel 1775 2500 0    39   Output ~ 0
-RXD
-Text GLabel 1775 2600 0    39   Input ~ 0
-~RTS~
-Text GLabel 1775 2400 0    39   Output ~ 0
-~CTS~
-Text GLabel 1775 2000 0    39   Input ~ 0
-~DTR~
-Text GLabel 1775 2300 0    39   Output ~ 0
-~DSR~
-Text GLabel 1775 2100 0    39   Output ~ 0
-~DCD~
-Text Label 7250 1400 0    50   ~ 0
-P1_2
-Text GLabel 6275 1400 2    50   BiDi ~ 0
-P1_1
-Text GLabel 6275 1500 2    50   BiDi ~ 0
-P2_1
-Text GLabel 6275 1600 2    50   BiDi ~ 0
-P3_1
-Text GLabel 6275 1700 2    50   BiDi ~ 0
-P4_1
-Wire Wire Line
-	2325 2100 1775 2100
-Wire Wire Line
-	1775 2300 2325 2300
-Wire Wire Line
-	2325 2000 1775 2000
-Wire Wire Line
-	1775 2400 2325 2400
-Wire Wire Line
-	2325 2600 1775 2600
-Wire Wire Line
-	2325 2500 1775 2500
-Text Notes 5000 1675 1    50   ~ 0
-Bank 0
-Text Notes 6650 1675 1    50   ~ 0
-Bank 0
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5D05805B
-P 1075 2350
-AR Path="/5CAB8B22/5D05805B" Ref="#PWR?"  Part="1" 
-AR Path="/5CB5889B/5D05805B" Ref="#PWR0135"  Part="1" 
-F 0 "#PWR0135" H 1075 2200 50  0001 C CNN
-F 1 "+3V3" V 1090 2478 50  0000 L CNN
-F 2 "" H 1075 2350 50  0001 C CNN
-F 3 "" H 1075 2350 50  0001 C CNN
-	1    1075 2350
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5D058055
-P 1075 2600
-AR Path="/5CAB8B22/5D058055" Ref="R?"  Part="1" 
-AR Path="/5CB5889B/5D058055" Ref="R54"  Part="1" 
-F 0 "R54" H 1005 2646 50  0000 R CNN
-F 1 "10k" H 1005 2555 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1005 2600 50  0001 C CNN
-F 3 "~" H 1075 2600 50  0001 C CNN
-F 4 "RES 10K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
-F 5 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    1075 2600
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	1775 3000 2325 3000
-Wire Wire Line
-	2325 3100 2250 3100
-Text GLabel 1775 3100 0    39   Input ~ 0
-CRESET_B
-Text GLabel 1775 3000 0    39   Output ~ 0
-CDONE
-Text GLabel 1075 2825 3    39   Output ~ 0
-CDONE
-Wire Wire Line
-	1075 2825 1075 2750
-Wire Wire Line
-	1075 4100 1075 4000
-$Comp
-L power:GND #PWR0136
-U 1 1 5D1576AB
-P 1075 4100
-F 0 "#PWR0136" H 1075 3850 50  0001 C CNN
-F 1 "GND" H 1080 3927 50  0000 C CNN
-F 2 "" H 1075 4100 50  0001 C CNN
-F 3 "" H 1075 4100 50  0001 C CNN
-	1    1075 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1075 3525 1075 3600
-Text GLabel 1075 3525 1    39   Output ~ 0
-CRESET_B
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5CB172CF
-P 1075 3800
-AR Path="/5CAB7CD4/5CB172CF" Ref="SW?"  Part="1" 
-AR Path="/5CB5889B/5CB172CF" Ref="SW6"  Part="1" 
-F 0 "SW6" V 1121 3752 50  0000 R CNN
-F 1 "SW_Push" V 1030 3752 50  0000 R CNN
-F 2 "footprints:SW_SPST_TL3305A" H 1075 4000 50  0001 C CNN
-F 3 "http://spec_sheets.e-switch.com/specs/P010468.pdf" H 1075 4000 50  0001 C CNN
-F 4 "E-Switch" H 1075 3800 50  0001 C CNN "Mfg Name"
-F 5 "TL3305AF160QG" H 1075 3800 50  0001 C CNN "Mfg Part Num"
-F 6 "EG5350CT-ND" H 1075 3800 50  0001 C CNN "Digikey"
-F 7 "SWITCH TACTILE SPST-NO 50MA 12V" H 1075 3800 50  0001 C CNN "Description"
-F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
-	1    1075 3800
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 2325 2800
-NoConn ~ 2325 2900
-Text GLabel 9700 2575 0    50   Input ~ 0
-ICE_CLK_12M
-Wire Wire Line
-	9700 2575 9925 2575
+	2600 5775 2850 5775
 $Comp
 L Device:C C?
 U 1 1 5CD4AF05
-P 5175 7125
+P 1425 5975
 AR Path="/5CAB7CD4/5CD4AF05" Ref="C?"  Part="1" 
-AR Path="/5CB5889B/5CD4AF05" Ref="C26"  Part="1" 
-F 0 "C26" H 5290 7171 50  0000 L CNN
-F 1 "100nF 6,3 V" H 5290 7080 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5213 6975 50  0001 C CNN
-F 3 "~" H 5175 7125 50  0001 C CNN
-F 4 "CAP CER 0.1UF 50V X7R 0603" H 0   0   50  0001 C CNN "Description"
-F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    5175 7125
+AR Path="/5CB5889B/5CD4AF05" Ref="C?"  Part="1" 
+AR Path="/5ED96D61/5CD4AF05" Ref="C54"  Part="1" 
+F 0 "C54" H 1540 6021 50  0000 L CNN
+F 1 "100nF 6,3 V" H 1540 5930 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1463 5825 50  0001 C CNN
+F 3 "~" H 1425 5975 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H -3750 -1150 50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H -3750 -1150 50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H -3750 -1150 50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H -3750 -1150 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -3750 -1150 50  0001 C CNN "Spec"
+	1    1425 5975
 	1    0    0    -1  
 $EndComp
 $Comp
 L ECS-3225S:ECS-3225S33 Y?
 U 1 1 5E36217B
-P 7975 2525
+P 8800 3300
 AR Path="/5CAB8B22/5E36217B" Ref="Y?"  Part="1" 
-AR Path="/5CB5889B/5E36217B" Ref="Y2"  Part="1" 
-F 0 "Y2" H 7675 2275 50  0000 C CNN
-F 1 "ECS-3225S33-500-FN-TR" H 8000 2775 50  0000 C CNN
-F 2 "footprints:Y_ECS-3225S_3.2x2.5mm_footprint" H 7975 1925 50  0001 C CNN
-F 3 "https://www.ecsxtal.com/store/pdf/ECS-3225S.pdf" H 7975 1925 50  0001 C CNN
-F 4 "ECS Inc." H 7975 2525 50  0001 C CNN "Mfg Name"
-F 5 "ECS-3225S33-500-FN-TR" H 7975 2525 50  0001 C CNN "Mfg Part Num"
-F 6 "XC2226CT-ND" H 7975 2525 50  0001 C CNN "Digikey"
-F 7 "XTAL OSC XO 50.0000MHZ HCMOS SMD" H 7975 2525 50  0001 C CNN "Description"
-F 8 "50 MHz" H 8100 2275 50  0000 C CNN "f"
-F 9 "Spec" H 0   0   50  0001 C CNN "Spec"
-	1    7975 2525
+AR Path="/5CB5889B/5E36217B" Ref="Y?"  Part="1" 
+AR Path="/5ED96D61/5E36217B" Ref="Y1"  Part="1" 
+F 0 "Y1" H 8500 3050 50  0000 C CNN
+F 1 "ECS-3225S33-500-FN-TR" H 8825 3550 50  0000 C CNN
+F 2 "footprints:Y_ECS-3225S_3.2x2.5mm_footprint" H 8800 2700 50  0001 C CNN
+F 3 "https://www.ecsxtal.com/store/pdf/ECS-3225S.pdf" H 8800 2700 50  0001 C CNN
+F 4 "ECS Inc." H 8800 3300 50  0001 C CNN "Mfg Name"
+F 5 "ECS-3225S33-500-FN-TR" H 8800 3300 50  0001 C CNN "Mfg Part Num"
+F 6 "XC2226CT-ND" H 8800 3300 50  0001 C CNN "Digikey"
+F 7 "XTAL OSC XO 50.0000MHZ HCMOS SMD" H 8800 3300 50  0001 C CNN "Description"
+F 8 "50 MHz" H 8925 3050 50  0000 C CNN "f"
+F 9 "Spec" H 825 775 50  0001 C CNN "Spec"
+	1    8800 3300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8475 2425 8575 2425
+	9300 3200 9400 3200
 Wire Wire Line
-	8575 2425 8575 2350
-$Comp
-L power:GND #PWR?
-U 1 1 5E362183
-P 7275 2750
-AR Path="/5CAB8B22/5E362183" Ref="#PWR?"  Part="1" 
-AR Path="/5CB5889B/5E362183" Ref="#PWR0161"  Part="1" 
-F 0 "#PWR0161" H 7275 2500 50  0001 C CNN
-F 1 "GND" H 7280 2577 50  0000 C CNN
-F 2 "" H 7275 2750 50  0001 C CNN
-F 3 "" H 7275 2750 50  0001 C CNN
-	1    7275 2750
-	1    0    0    -1  
-$EndComp
+	9400 3200 9400 3125
 Wire Wire Line
-	7275 2750 7275 2625
+	8100 3525 8100 3400
 Wire Wire Line
-	7275 2625 7425 2625
-$Comp
-L power:GND #PWR?
-U 1 1 5E36218B
-P 6925 2750
-AR Path="/5CAB8B22/5E36218B" Ref="#PWR?"  Part="1" 
-AR Path="/5CB5889B/5E36218B" Ref="#PWR0162"  Part="1" 
-F 0 "#PWR0162" H 6925 2500 50  0001 C CNN
-F 1 "GND" H 6930 2577 50  0000 C CNN
-F 2 "" H 6925 2750 50  0001 C CNN
-F 3 "" H 6925 2750 50  0001 C CNN
-	1    6925 2750
-	1    0    0    -1  
-$EndComp
+	8100 3400 8250 3400
 Wire Wire Line
-	6925 2750 6925 2650
+	1150 7200 1150 7075
 Wire Wire Line
-	6925 2275 6925 2350
+	1150 6700 1150 6775
 Wire Wire Line
-	7275 2350 7275 2425
+	8100 3125 8100 3200
 Wire Wire Line
-	7275 2425 7425 2425
+	8100 3200 8250 3200
 $Comp
 L Device:C C?
 U 1 1 5E3621A8
-P 6925 2500
+P 1150 6925
 AR Path="/5CAB7CD4/5E3621A8" Ref="C?"  Part="1" 
 AR Path="/5CAB8B22/5E3621A8" Ref="C?"  Part="1" 
-AR Path="/5CB5889B/5E3621A8" Ref="C73"  Part="1" 
-F 0 "C73" H 6811 2546 50  0000 R CNN
-F 1 "100nF 6,3 V" H 6811 2455 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6963 2350 50  0001 C CNN
-F 3 "~" H 6925 2500 50  0001 C CNN
-F 4 "CAP CER 0.1UF 50V X7R 0603" H 0   0   50  0001 C CNN "Description"
-F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    6925 2500
+AR Path="/5CB5889B/5E3621A8" Ref="C?"  Part="1" 
+AR Path="/5ED96D61/5E3621A8" Ref="C53"  Part="1" 
+F 0 "C53" H 1036 6971 50  0000 R CNN
+F 1 "100nF 6,3 V" H 1036 6880 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1188 6775 50  0001 C CNN
+F 3 "~" H 1150 6925 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H -5775 4425 50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H -5775 4425 50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H -5775 4425 50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H -5775 4425 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -5775 4425 50  0001 C CNN "Spec"
+	1    1150 6925
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3V3 #PWR0163
-U 1 1 5E36F542
-P 6925 2275
-F 0 "#PWR0163" H 6925 2125 50  0001 C CNN
-F 1 "+3V3" H 6940 2448 50  0000 C CNN
-F 2 "" H 6925 2275 50  0001 C CNN
-F 3 "" H 6925 2275 50  0001 C CNN
-	1    6925 2275
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0164
-U 1 1 5E36FE40
-P 7275 2350
-F 0 "#PWR0164" H 7275 2200 50  0001 C CNN
-F 1 "+3V3" H 7290 2523 50  0000 C CNN
-F 2 "" H 7275 2350 50  0001 C CNN
-F 3 "" H 7275 2350 50  0001 C CNN
-	1    7275 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0165
-U 1 1 5E3701D9
-P 8575 2350
-F 0 "#PWR0165" H 8575 2200 50  0001 C CNN
-F 1 "+3V3" H 8590 2523 50  0000 C CNN
-F 2 "" H 8575 2350 50  0001 C CNN
-F 3 "" H 8575 2350 50  0001 C CNN
-	1    8575 2350
-	1    0    0    -1  
-$EndComp
-Text Label 9025 2625 2    50   ~ 0
+Wire Wire Line
+	9300 3400 9600 3400
+Text HLabel 9875 775  1    50   BiDi ~ 0
+3V3
+Text HLabel 7125 875  1    50   BiDi ~ 0
+3V3
+Text HLabel 9575 1150 0    50   Input ~ 0
+OE0
+Text HLabel 6825 1250 0    50   Input ~ 0
+OE1
+Text HLabel 9575 1850 0    50   Input ~ 0
+FPGA_INO_TX
+Text HLabel 9575 1950 0    50   Output ~ 0
+FPGA_INO_RX
+Text HLabel 6825 1350 0    50   BiDi ~ 0
+FPGA_INO_SCL
+Text HLabel 6825 1550 0    50   BiDi ~ 0
+FPGA_INO_SCK
+Text HLabel 6825 1650 0    50   BiDi ~ 0
+FPGA_INO_MISO
+Text HLabel 6825 1750 0    50   BiDi ~ 0
+FPGA_INO_MOSI
+Text HLabel 6825 1850 0    50   BiDi ~ 0
+FPGA_INO_SS
+Text HLabel 6825 1450 0    50   BiDi ~ 0
+FPGA_INO_SDA
+Text HLabel 7325 875  1    50   BiDi ~ 0
+5V
+Text HLabel 10075 775  1    50   BiDi ~ 0
+5V
+Text HLabel 1650 5725 1    50   BiDi ~ 0
+3V3
+Text HLabel 2600 5725 1    50   BiDi ~ 0
+5V
+Text HLabel 9975 2325 3    50   BiDi ~ 0
+GND
+Text HLabel 7225 2425 3    50   BiDi ~ 0
+GND
+Text HLabel 2625 6250 3    50   BiDi ~ 0
+GND
+Text HLabel 1675 6250 3    50   BiDi ~ 0
+GND
+Text HLabel 850  6250 3    50   BiDi ~ 0
+GND
+Text HLabel 700  5625 1    50   Input ~ 0
+OE0
+Text HLabel 1000 5625 1    50   Input ~ 0
+OE1
+Text HLabel 9600 3400 2    50   Output ~ 0
 IC_CLK_50M
-Text Label 1775 2200 0    50   ~ 0
-IC_CLK_50M
-Wire Wire Line
-	1775 2200 2325 2200
+Text HLabel 1150 6700 1    50   BiDi ~ 0
+3V3
+Text HLabel 1150 7200 3    50   BiDi ~ 0
+GND
 $Comp
-L Device:LED_ALT D?
-U 1 1 61629DBA
-P 4450 2025
-AR Path="/5CA8FBC7/61629DBA" Ref="D?"  Part="1" 
-AR Path="/5CB5889B/61629DBA" Ref="D17"  Part="1" 
-F 0 "D17" V 4489 1907 50  0000 R CNN
-F 1 "DONE" V 4398 1907 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 4450 2025 50  0001 C CNN
-F 3 "~" H 4450 2025 50  0001 C CNN
-F 4 "LED RED DIFFUSED 1608 SMD" H 0   0   50  0001 C CNN "Description"
-F 5 "SML-D12U1WT86CT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Rohm Semiconductor" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "SML-D12U1WT86" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    4450 2025
-	0    -1   -1   0   
+L Analog_Switch:MAX40200AUK U?
+U 1 1 5D0C54A3
+P 3900 3900
+AR Path="/5CA8FBC7/5D0C54A3" Ref="U?"  Part="1" 
+AR Path="/5CB5889B/5D0C54A3" Ref="U?"  Part="1" 
+AR Path="/5ED96D61/5D0C54A3" Ref="U11"  Part="1" 
+F 0 "U11" H 3900 4267 50  0000 C CNN
+F 1 "MAX40200AUK" H 3900 4176 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3900 4400 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf" H 3900 4400 50  0001 C CNN
+F 4 "Maxim Integrated" H 3900 3900 50  0001 C CNN "Mfg Name"
+F 5 "MAX40200AUK+T" H 3900 3900 50  0001 C CNN "Mfg Part Num"
+F 6 "MAX40200AUK+TCT-ND" H 3900 3900 50  0001 C CNN "Digikey"
+F 7 "IC DIODE CURRENT SWITCH SOT23-5" H 3900 3900 50  0001 C CNN "Description"
+F 8 "Spec" H 1700 -50 50  0001 C CNN "Spec"
+	1    3900 3900
+	1    0    0    -1  
 $EndComp
+Text Label 4700 3800 2    50   ~ 0
+INO_3V3
+Wire Wire Line
+	4700 3800 4400 3800
+Wire Wire Line
+	3900 4200 3900 4250
+Wire Wire Line
+	3400 3700 3400 3800
+Wire Wire Line
+	3400 4000 3500 4000
+Wire Wire Line
+	3500 3800 3400 3800
+Connection ~ 3400 3800
+Wire Wire Line
+	3400 3800 3400 4000
 $Comp
-L power:GND #PWR?
-U 1 1 61629DC0
-P 4450 2650
-AR Path="/5CA8FBC7/61629DC0" Ref="#PWR?"  Part="1" 
-AR Path="/5CB5889B/61629DC0" Ref="#PWR0188"  Part="1" 
-F 0 "#PWR0188" H 4450 2400 50  0001 C CNN
-F 1 "GND" H 4455 2477 50  0000 C CNN
-F 2 "" H 4450 2650 50  0001 C CNN
-F 3 "" H 4450 2650 50  0001 C CNN
-	1    4450 2650
+L Device:C C?
+U 1 1 5D151874
+P 4400 4075
+AR Path="/5CA8FBC7/5D151874" Ref="C?"  Part="1" 
+AR Path="/5CAB8B22/5D151874" Ref="C?"  Part="1" 
+AR Path="/5CB5889B/5D151874" Ref="C?"  Part="1" 
+AR Path="/5ED96D61/5D151874" Ref="C59"  Part="1" 
+F 0 "C59" H 4515 4121 50  0000 L CNN
+F 1 "10 uF 6,3 V" H 4515 4030 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4438 3925 50  0001 C CNN
+F 3 "~" H 4400 4075 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 4400 4075 50  0001 C CNN "Mfg Name"
+F 5 "CL10A106MQ8NNNC" H 4400 4075 50  0001 C CNN "Mfg Part Num"
+F 6 "1276-1119-1-ND" H 4400 4075 50  0001 C CNN "Digikey"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 4400 4075 50  0001 C CNN "Description"
+F 8 "Any" H 1700 -50 50  0001 C CNN "Spec"
+	1    4400 4075
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 2650 4450 2600
+	4400 3925 4400 3800
+Wire Wire Line
+	4400 3800 4300 3800
+Wire Wire Line
+	4400 4225 4400 4250
+Wire Wire Line
+	4400 4250 3900 4250
+Connection ~ 3900 4250
+Wire Wire Line
+	3900 4250 3900 4300
+Connection ~ 4400 3800
+Text HLabel 3400 3700 1    50   BiDi ~ 0
+3V3
+Text HLabel 3900 4300 3    50   BiDi ~ 0
+GND
+$Comp
+L Analog_Switch:MAX40200AUK U?
+U 1 1 5CEBB238
+P 3900 1700
+AR Path="/5CA8FBC7/5CEBB238" Ref="U?"  Part="1" 
+AR Path="/5CB5889B/5CEBB238" Ref="U?"  Part="1" 
+AR Path="/5ED96D61/5CEBB238" Ref="U10"  Part="1" 
+F 0 "U10" H 3900 2067 50  0000 C CNN
+F 1 "MAX40200AUK" H 3900 1976 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3900 2200 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf" H 3900 2200 50  0001 C CNN
+F 4 "Maxim Integrated" H 3900 1700 50  0001 C CNN "Mfg Name"
+F 5 "MAX40200AUK+T" H 3900 1700 50  0001 C CNN "Mfg Part Num"
+F 6 "MAX40200AUK+TCT-ND" H 3900 1700 50  0001 C CNN "Digikey"
+F 7 "IC DIODE CURRENT SWITCH SOT23-5" H 3900 1700 50  0001 C CNN "Description"
+F 8 "Spec" H 1700 -2250 50  0001 C CNN "Spec"
+	1    3900 1700
+	1    0    0    -1  
+$EndComp
+Text Label 4875 1600 2    50   ~ 0
+PMOD_3V3
+Wire Wire Line
+	3900 2000 3900 2050
+Wire Wire Line
+	3400 1500 3400 1600
+Wire Wire Line
+	3500 1600 3400 1600
+$Comp
+L Device:C C?
+U 1 1 5CEBB263
+P 4400 1875
+AR Path="/5CA8FBC7/5CEBB263" Ref="C?"  Part="1" 
+AR Path="/5CAB8B22/5CEBB263" Ref="C?"  Part="1" 
+AR Path="/5CB5889B/5CEBB263" Ref="C?"  Part="1" 
+AR Path="/5ED96D61/5CEBB263" Ref="C58"  Part="1" 
+F 0 "C58" H 4515 1921 50  0000 L CNN
+F 1 "10 uF 6,3 V" H 4515 1830 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4438 1725 50  0001 C CNN
+F 3 "~" H 4400 1875 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 4400 1875 50  0001 C CNN "Mfg Name"
+F 5 "CL10A106MQ8NNNC" H 4400 1875 50  0001 C CNN "Mfg Part Num"
+F 6 "1276-1119-1-ND" H 4400 1875 50  0001 C CNN "Digikey"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 4400 1875 50  0001 C CNN "Description"
+F 8 "Any" H 1700 -2250 50  0001 C CNN "Spec"
+	1    4400 1875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 1725 4400 1600
+Connection ~ 4400 1600
+Wire Wire Line
+	4400 1600 4300 1600
+Wire Wire Line
+	4400 2025 4400 2050
+Wire Wire Line
+	4400 2050 3900 2050
+Connection ~ 3900 2050
+Wire Wire Line
+	3900 2050 3900 2100
+$Comp
+L Device:C C?
+U 1 1 5D0EC431
+P 5000 1850
+AR Path="/5CA8FBC7/5D0EC431" Ref="C?"  Part="1" 
+AR Path="/5CAB8B22/5D0EC431" Ref="C?"  Part="1" 
+AR Path="/5CB5889B/5D0EC431" Ref="C?"  Part="1" 
+AR Path="/5ED96D61/5D0EC431" Ref="C60"  Part="1" 
+F 0 "C60" H 5115 1896 50  0000 L CNN
+F 1 "10 uF 6,3 V" H 5115 1805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5038 1700 50  0001 C CNN
+F 3 "~" H 5000 1850 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 5000 1850 50  0001 C CNN "Mfg Name"
+F 5 "CL10A106MQ8NNNC" H 5000 1850 50  0001 C CNN "Mfg Part Num"
+F 6 "1276-1119-1-ND" H 5000 1850 50  0001 C CNN "Digikey"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 5000 1850 50  0001 C CNN "Description"
+F 8 "Any" H 2300 -2275 50  0001 C CNN "Spec"
+	1    5000 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 1600 5000 1700
+Wire Wire Line
+	4400 1600 5000 1600
+Wire Wire Line
+	5000 2000 5000 2050
+Wire Wire Line
+	5000 2050 4400 2050
+Connection ~ 4400 2050
+Wire Wire Line
+	3325 1800 3375 1800
 $Comp
 L Device:R R?
-U 1 1 61629DC7
-P 4450 1700
-AR Path="/5CA8FBC7/61629DC7" Ref="R?"  Part="1" 
-AR Path="/5CB5889B/61629DC7" Ref="R60"  Part="1" 
-F 0 "R60" H 4520 1746 50  0000 L CNN
-F 1 "560" H 4520 1655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4380 1700 50  0001 C CNN
-F 3 "~" H 4450 1700 50  0001 C CNN
-F 4 "RES 560 OHM 5% 1/8W 0603" H 0   0   50  0001 C CNN "Description"
-F 5 "2019-RK73B1JTTD561JCT-ND " H 0   0   50  0001 C CNN "Digikey"
-F 6 "KOA Speer Electronics, Inc." H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "RK73B1JTTD561J " H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    4450 1700
+U 1 1 5D253BB6
+P 3375 2025
+AR Path="/5CAB7CD4/5D253BB6" Ref="R?"  Part="1" 
+AR Path="/5CB5889B/5D253BB6" Ref="R?"  Part="1" 
+AR Path="/5ED96D61/5D253BB6" Ref="R44"  Part="1" 
+F 0 "R44" H 3305 2071 50  0000 R CNN
+F 1 "10k" H 3305 1980 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3305 2025 50  0001 C CNN
+F 3 "~" H 3375 2025 50  0001 C CNN
+F 4 "RES 10K OHM 5% 1/10W 0603" H -175 -2275 50  0001 C CNN "Description"
+F 5 "RMCF0603JT10K0CT-ND" H -175 -2275 50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H -175 -2275 50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT10K0" H -175 -2275 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -175 -2275 50  0001 C CNN "Spec"
+	1    3375 2025
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 1875 4450 1850
-$Comp
-L Device:Q_NMOS_GSD Q2
-U 1 1 61648269
-P 4350 2400
-F 0 "Q2" H 4556 2446 50  0000 L CNN
-F 1 "Q_NMOS_GSD" H 4556 2355 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4550 2500 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/DMN65D8L.pdf" H 4350 2400 50  0001 C CNN
-F 4 "MOSFET N-CH 60V 310MA SOT23" H 0   0   50  0001 C CNN "Description"
-F 5 "DMN65D8L-7DICT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Diodes Incorporated" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "DMN65D8L-7" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
-	1    4350 2400
-	1    0    0    -1  
-$EndComp
+	3375 1875 3375 1800
+Connection ~ 3375 1800
 Wire Wire Line
-	4450 2200 4450 2175
-$Comp
-L power:+3V3 #PWR?
-U 1 1 616B9786
-P 4450 1500
-AR Path="/5CAB8B22/616B9786" Ref="#PWR?"  Part="1" 
-AR Path="/5CB5889B/616B9786" Ref="#PWR0189"  Part="1" 
-F 0 "#PWR0189" H 4450 1350 50  0001 C CNN
-F 1 "+3V3" V 4465 1628 50  0000 L CNN
-F 2 "" H 4450 1500 50  0001 C CNN
-F 3 "" H 4450 1500 50  0001 C CNN
-	1    4450 1500
-	-1   0    0    -1  
-$EndComp
+	3375 1800 3500 1800
 Wire Wire Line
-	4450 1500 4450 1550
-Text GLabel 4100 2400 0    39   Output ~ 0
-CDONE
-Wire Wire Line
-	4100 2400 4150 2400
-Text Label 9225 5175 0    50   ~ 0
-INO_A0
-Wire Wire Line
-	9225 5175 9625 5175
-Text Label 9225 5075 0    50   ~ 0
-INO_A1
-Wire Wire Line
-	9225 5075 9625 5075
-Text Label 9225 4975 0    50   ~ 0
-INO_A2
-Wire Wire Line
-	9225 4975 9625 4975
-Text Label 9225 4875 0    50   ~ 0
-INO_A3
-Wire Wire Line
-	9225 4875 9625 4875
-Text Label 9225 4775 0    50   ~ 0
-INO_A4
-Wire Wire Line
-	9225 4775 9625 4775
-Text Label 9225 4675 0    50   ~ 0
-INO_A5
-Wire Wire Line
-	9225 4675 9625 4675
-$Comp
-L Device:Q_NMOS_GSD Q4
-U 1 1 61A963F1
-P 8225 3600
-F 0 "Q4" V 8476 3600 50  0000 C CNN
-F 1 "Q_NMOS_GSD" V 8567 3600 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8425 3700 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/DMN65D8L.pdf" H 8225 3600 50  0001 C CNN
-F 4 "MOSFET N-CH 60V 310MA SOT23" H 0   0   50  0001 C CNN "Description"
-F 5 "DMN65D8L-7DICT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Diodes Incorporated" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "DMN65D8L-7" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
-	1    8225 3600
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	8475 2625 9025 2625
-$Comp
-L Device:R R?
-U 1 1 61B988CD
-P 7975 3500
-AR Path="/5CAB7CD4/61B988CD" Ref="R?"  Part="1" 
-AR Path="/5CB5889B/61B988CD" Ref="R63"  Part="1" 
-F 0 "R63" H 7905 3546 50  0000 R CNN
-F 1 "4,7k" H 7905 3455 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7905 3500 50  0001 C CNN
-F 3 "~" H 7975 3500 50  0001 C CNN
-F 4 "RES 4.7K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
-F 5 "RMCF0603JT4K70CT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "RMCF0603JT4K70" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    7975 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61BA0864
-P 8475 3500
-AR Path="/5CAB7CD4/61BA0864" Ref="R?"  Part="1" 
-AR Path="/5CB5889B/61BA0864" Ref="R64"  Part="1" 
-F 0 "R64" H 8545 3546 50  0000 L CNN
-F 1 "4,7k" H 8545 3455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8405 3500 50  0001 C CNN
-F 3 "~" H 8475 3500 50  0001 C CNN
-F 4 "RES 4.7K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
-F 5 "RMCF0603JT4K70CT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "RMCF0603JT4K70" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    8475 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8225 3400 8225 3325
-Wire Wire Line
-	8225 3325 8350 3325
-Wire Wire Line
-	8475 3325 8475 3350
-$Comp
-L power:+3V3 #PWR0192
-U 1 1 61BB2EE5
-P 8350 3300
-F 0 "#PWR0192" H 8350 3150 50  0001 C CNN
-F 1 "+3V3" H 8365 3473 50  0000 C CNN
-F 2 "" H 8350 3300 50  0001 C CNN
-F 3 "" H 8350 3300 50  0001 C CNN
-	1    8350 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8350 3300 8350 3325
-Connection ~ 8350 3325
-Wire Wire Line
-	8350 3325 8475 3325
-Wire Wire Line
-	7975 3650 7975 3700
-Wire Wire Line
-	7975 3700 8025 3700
-Wire Wire Line
-	8425 3700 8475 3700
-$Comp
-L Analog_ADC:MAX11614 U20
-U 1 1 61CA90A4
-P 10125 5175
-F 0 "U20" H 9750 4425 50  0000 C CNN
-F 1 "MAX11614" H 10350 5825 50  0000 C CNN
-F 2 "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm" H 10575 4525 50  0001 L CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX11612-MAX11617.pdf" H 10225 5975 50  0001 C CNN
-F 4 "Maxim Integrated" H 10125 5175 50  0001 C CNN "Mfg Name"
-F 5 "MAX11614EEE+" H 10125 5175 50  0001 C CNN "Mfg Part Num"
-F 6 "MAX11614EEE+-ND" H 10125 5175 50  0001 C CNN "Digikey"
-F 7 "IC ADC SERIAL 12BIT 8CH 16-QSOP" H 10125 5175 50  0001 C CNN "Description"
-F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
-	1    10125 5175
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NMOS_GSD Q3
-U 1 1 61CC0B76
-P 5875 3575
-F 0 "Q3" V 6126 3575 50  0000 C CNN
-F 1 "Q_NMOS_GSD" V 6217 3575 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6075 3675 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/DMN65D8L.pdf" H 5875 3575 50  0001 C CNN
-F 4 "MOSFET N-CH 60V 310MA SOT23" H 0   0   50  0001 C CNN "Description"
-F 5 "DMN65D8L-7DICT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Diodes Incorporated" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "DMN65D8L-7" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
-	1    5875 3575
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61CC0B80
-P 5625 3475
-AR Path="/5CAB7CD4/61CC0B80" Ref="R?"  Part="1" 
-AR Path="/5CB5889B/61CC0B80" Ref="R61"  Part="1" 
-F 0 "R61" H 5555 3521 50  0000 R CNN
-F 1 "4,7k" H 5555 3430 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5555 3475 50  0001 C CNN
-F 3 "~" H 5625 3475 50  0001 C CNN
-F 4 "RES 4.7K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
-F 5 "RMCF0603JT4K70CT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "RMCF0603JT4K70" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    5625 3475
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61CC0B8A
-P 6125 3475
-AR Path="/5CAB7CD4/61CC0B8A" Ref="R?"  Part="1" 
-AR Path="/5CB5889B/61CC0B8A" Ref="R62"  Part="1" 
-F 0 "R62" H 6195 3521 50  0000 L CNN
-F 1 "4,7k" H 6195 3430 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6055 3475 50  0001 C CNN
-F 3 "~" H 6125 3475 50  0001 C CNN
-F 4 "RES 4.7K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
-F 5 "RMCF0603JT4K70CT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "RMCF0603JT4K70" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    6125 3475
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5875 3375 5875 3300
-Wire Wire Line
-	5875 3300 6000 3300
-Wire Wire Line
-	6125 3300 6125 3325
-$Comp
-L power:+3V3 #PWR0194
-U 1 1 61CC0B97
-P 6000 3275
-F 0 "#PWR0194" H 6000 3125 50  0001 C CNN
-F 1 "+3V3" H 6015 3448 50  0000 C CNN
-F 2 "" H 6000 3275 50  0001 C CNN
-F 3 "" H 6000 3275 50  0001 C CNN
-	1    6000 3275
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6000 3275 6000 3300
-Connection ~ 6000 3300
-Wire Wire Line
-	6000 3300 6125 3300
-Wire Wire Line
-	5625 3625 5625 3675
-Wire Wire Line
-	6075 3675 6125 3675
-Wire Wire Line
-	6125 3675 6125 3625
-Wire Wire Line
-	6200 3675 6125 3675
-Wire Wire Line
-	8475 3700 8475 3650
-Wire Wire Line
-	8550 3700 8475 3700
-Connection ~ 8475 3700
-Connection ~ 6125 3675
-Text Label 7500 3700 0    50   ~ 0
-ADC_SCL_5V
-Wire Wire Line
-	7500 3700 7975 3700
-Connection ~ 7975 3700
-Text Label 5150 3675 0    50   ~ 0
-ADC_SDA_5V
-Wire Wire Line
-	5150 3675 5625 3675
-Connection ~ 5625 3675
-Wire Wire Line
-	5625 3675 5675 3675
-$Comp
-L power:GND #PWR0196
-U 1 1 61E36D6F
-P 10125 6050
-F 0 "#PWR0196" H 10125 5800 50  0001 C CNN
-F 1 "GND" H 10130 5877 50  0000 C CNN
-F 2 "" H 10125 6050 50  0001 C CNN
-F 3 "" H 10125 6050 50  0001 C CNN
-	1    10125 6050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10125 6050 10125 5975
+	3375 2250 3375 2175
+Text HLabel 3400 1500 1    50   BiDi ~ 0
+3V3
+Text HLabel 3375 2250 3    50   BiDi ~ 0
+GND
+Text HLabel 3900 2100 3    50   BiDi ~ 0
+GND
+Text HLabel 3325 1800 0    50   Input ~ 0
+PMOD_PWR_EN
 $Comp
 L Device:C C?
 U 1 1 61E82F85
-P 8050 5575
+P 6775 4350
 AR Path="/5CA8FBC7/61E82F85" Ref="C?"  Part="1" 
 AR Path="/5CAB8B22/61E82F85" Ref="C?"  Part="1" 
-AR Path="/5CB5889B/61E82F85" Ref="C87"  Part="1" 
-F 0 "C87" H 8165 5621 50  0000 L CNN
-F 1 "10 uF 6,3 V" H 8165 5530 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8088 5425 50  0001 C CNN
-F 3 "~" H 8050 5575 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 8050 5575 50  0001 C CNN "Mfg Name"
-F 5 "CL10A106MQ8NNNC" H 8050 5575 50  0001 C CNN "Mfg Part Num"
-F 6 "1276-1119-1-ND" H 8050 5575 50  0001 C CNN "Digikey"
-F 7 "CAP CER 10UF 6.3V X5R 0603" H 8050 5575 50  0001 C CNN "Description"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    8050 5575
+AR Path="/5CB5889B/61E82F85" Ref="C?"  Part="1" 
+AR Path="/5ED96D61/61E82F85" Ref="C62"  Part="1" 
+F 0 "C62" H 6890 4396 50  0000 L CNN
+F 1 "10 uF 6,3 V" H 6890 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6813 4200 50  0001 C CNN
+F 3 "~" H 6775 4350 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 6775 4350 50  0001 C CNN "Mfg Name"
+F 5 "CL10A106MQ8NNNC" H 6775 4350 50  0001 C CNN "Mfg Part Num"
+F 6 "1276-1119-1-ND" H 6775 4350 50  0001 C CNN "Digikey"
+F 7 "CAP CER 10UF 6.3V X5R 0603" H 6775 4350 50  0001 C CNN "Description"
+F 8 "Any" H -1275 -1225 50  0001 C CNN "Spec"
+	1    6775 4350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 61E82F8B
-P 7700 5575
+P 6425 4350
 AR Path="/5CAB7CD4/61E82F8B" Ref="C?"  Part="1" 
 AR Path="/5CAB8B22/61E82F8B" Ref="C?"  Part="1" 
-AR Path="/5CB5889B/61E82F8B" Ref="C86"  Part="1" 
-F 0 "C86" H 7586 5621 50  0000 R CNN
-F 1 "100nF 6,3 V" H 7586 5530 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7738 5425 50  0001 C CNN
-F 3 "~" H 7700 5575 50  0001 C CNN
-F 4 "CAP CER 0.1UF 50V X7R 0603" H 0   0   50  0001 C CNN "Description"
-F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    7700 5575
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 61E82F91
-P 7875 5875
-AR Path="/5CAB8B22/61E82F91" Ref="#PWR?"  Part="1" 
-AR Path="/5CB5889B/61E82F91" Ref="#PWR0197"  Part="1" 
-F 0 "#PWR0197" H 7875 5625 50  0001 C CNN
-F 1 "GND" H 7880 5702 50  0000 C CNN
-F 2 "" H 7875 5875 50  0001 C CNN
-F 3 "" H 7875 5875 50  0001 C CNN
-	1    7875 5875
+AR Path="/5CB5889B/61E82F8B" Ref="C?"  Part="1" 
+AR Path="/5ED96D61/61E82F8B" Ref="C61"  Part="1" 
+F 0 "C61" H 6311 4396 50  0000 R CNN
+F 1 "100nF 6,3 V" H 6311 4305 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6463 4200 50  0001 C CNN
+F 3 "~" H 6425 4350 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H -1275 -1225 50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H -1275 -1225 50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H -1275 -1225 50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H -1275 -1225 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -1275 -1225 50  0001 C CNN "Spec"
+	1    6425 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7700 5425 7700 5375
+	6425 4200 6425 4150
 Wire Wire Line
-	8050 5375 8050 5425
+	6775 4150 6775 4200
 Wire Wire Line
-	7700 5300 7700 5375
+	6425 4075 6425 4150
 Wire Wire Line
-	7700 5725 7700 5800
+	6425 4500 6425 4575
 Wire Wire Line
-	7700 5800 7875 5800
+	6425 4575 6600 4575
 Wire Wire Line
-	8050 5800 8050 5725
+	6775 4575 6775 4500
 Wire Wire Line
-	7875 5875 7875 5800
-Connection ~ 7875 5800
+	6600 4650 6600 4575
+Connection ~ 6600 4575
 Wire Wire Line
-	7875 5800 8050 5800
+	6600 4575 6775 4575
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 61E82FA7
-P 7700 5200
+P 6425 3975
 AR Path="/5CA8FBC7/61E82FA7" Ref="FB?"  Part="1" 
 AR Path="/5CAB8B22/61E82FA7" Ref="FB?"  Part="1" 
-AR Path="/5CB5889B/61E82FA7" Ref="FB7"  Part="1" 
-F 0 "FB7" H 7799 5154 50  0000 L CNN
-F 1 "330 Ohm" H 7799 5245 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 7630 5200 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_power_mpz2012_en.pdf" H 7700 5200 50  0001 C CNN
-F 4 "TDK Corporation" H 7700 5200 50  0001 C CNN "Mfg Name"
-F 5 "MPZ2012S331AT000" H 7700 5200 50  0001 C CNN "Mfg Part Num"
-F 6 "445-1569-1-ND" H 7700 5200 50  0001 C CNN "Digikey"
-F 7 "FERRITE BEAD 330 OHM 0805 1LN" H 7700 5200 50  0001 C CNN "Description"
-F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
-	1    7700 5200
+AR Path="/5CB5889B/61E82FA7" Ref="FB?"  Part="1" 
+AR Path="/5ED96D61/61E82FA7" Ref="FB5"  Part="1" 
+F 0 "FB5" H 6524 3929 50  0000 L CNN
+F 1 "330 Ohm" H 6524 4020 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6355 3975 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_power_mpz2012_en.pdf" H 6425 3975 50  0001 C CNN
+F 4 "TDK Corporation" H 6425 3975 50  0001 C CNN "Mfg Name"
+F 5 "MPZ2012S331AT000" H 6425 3975 50  0001 C CNN "Mfg Part Num"
+F 6 "445-1569-1-ND" H 6425 3975 50  0001 C CNN "Digikey"
+F 7 "FERRITE BEAD 330 OHM 0805 1LN" H 6425 3975 50  0001 C CNN "Description"
+F 8 "Spec" H -1275 -1225 50  0001 C CNN "Spec"
+	1    6425 3975
 	-1   0    0    1   
 $EndComp
-Connection ~ 7700 5375
+Connection ~ 6425 4150
 Wire Wire Line
-	7700 5375 8050 5375
+	6425 4150 6775 4150
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 61F69683
-P 8050 5200
+P 6775 3975
 AR Path="/5CA8FBC7/61F69683" Ref="FB?"  Part="1" 
 AR Path="/5CAB8B22/61F69683" Ref="FB?"  Part="1" 
-AR Path="/5CB5889B/61F69683" Ref="FB8"  Part="1" 
-F 0 "FB8" H 7950 5109 50  0000 R CNN
-F 1 "330 Ohm" H 7950 5200 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 7980 5200 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_power_mpz2012_en.pdf" H 8050 5200 50  0001 C CNN
-F 4 "TDK Corporation" H 8050 5200 50  0001 C CNN "Mfg Name"
-F 5 "MPZ2012S331AT000" H 8050 5200 50  0001 C CNN "Mfg Part Num"
-F 6 "445-1569-1-ND" H 8050 5200 50  0001 C CNN "Digikey"
-F 7 "FERRITE BEAD 330 OHM 0805 1LN" H 8050 5200 50  0001 C CNN "Description"
-F 8 "Do Not Place" H 7950 5291 50  0000 R CNN "DNP"
-F 9 "Spec" H 0   0   50  0001 C CNN "Spec"
-	1    8050 5200
+AR Path="/5CB5889B/61F69683" Ref="FB?"  Part="1" 
+AR Path="/5ED96D61/61F69683" Ref="FB6"  Part="1" 
+F 0 "FB6" H 6675 3884 50  0000 R CNN
+F 1 "330 Ohm" H 6675 3975 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6705 3975 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_power_mpz2012_en.pdf" H 6775 3975 50  0001 C CNN
+F 4 "TDK Corporation" H 6775 3975 50  0001 C CNN "Mfg Name"
+F 5 "MPZ2012S331AT000" H 6775 3975 50  0001 C CNN "Mfg Part Num"
+F 6 "445-1569-1-ND" H 6775 3975 50  0001 C CNN "Digikey"
+F 7 "FERRITE BEAD 330 OHM 0805 1LN" H 6775 3975 50  0001 C CNN "Description"
+F 8 "Do Not Place" H 6675 4066 50  0000 R CNN "DNP"
+F 9 "Spec" H -1275 -1225 50  0001 C CNN "Spec"
+	1    6775 3975
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8050 5300 8050 5375
-Connection ~ 8050 5375
-$Comp
-L power:+5V #PWR0198
-U 1 1 61F7D25F
-P 7700 5050
-F 0 "#PWR0198" H 7700 4900 50  0001 C CNN
-F 1 "+5V" H 7715 5223 50  0000 C CNN
-F 2 "" H 7700 5050 50  0001 C CNN
-F 3 "" H 7700 5050 50  0001 C CNN
-	1    7700 5050
-	1    0    0    -1  
-$EndComp
+	6775 4075 6775 4150
+Connection ~ 6775 4150
 Wire Wire Line
-	7700 5050 7700 5100
-$Comp
-L power:+3V3 #PWR0199
-U 1 1 61F90F4E
-P 8050 5050
-F 0 "#PWR0199" H 8050 4900 50  0001 C CNN
-F 1 "+3V3" H 8065 5223 50  0000 C CNN
-F 2 "" H 8050 5050 50  0001 C CNN
-F 3 "" H 8050 5050 50  0001 C CNN
-	1    8050 5050
-	1    0    0    -1  
-$EndComp
+	6425 3825 6425 3875
 Wire Wire Line
-	8050 5050 8050 5100
-Text Label 7700 5375 0    50   ~ 0
+	6775 3825 6775 3875
+Text Label 6425 4150 0    50   ~ 0
 ADC_VCC
-Text Label 10125 4125 3    50   ~ 0
-ADC_VCC
-Wire Wire Line
-	10125 4125 10125 4475
-$Comp
-L Device:R R?
-U 1 1 61FC04E1
-P 5875 4375
-AR Path="/5CAB7CD4/61FC04E1" Ref="R?"  Part="1" 
-AR Path="/5CB5889B/61FC04E1" Ref="R65"  Part="1" 
-F 0 "R65" V 6172 4375 50  0000 C CNN
-F 1 "0" V 6081 4375 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 4375 50  0001 C CNN
-F 3 "~" H 5875 4375 50  0001 C CNN
-F 4 "Do Not Place" V 5990 4375 50  0000 C CNN "DNP"
-	1    5875 4375
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	5725 4375 5625 4375
-Wire Wire Line
-	5625 4375 5625 3675
-Wire Wire Line
-	6025 4375 6125 4375
-Wire Wire Line
-	6125 4375 6125 3675
-$Comp
-L Device:R R?
-U 1 1 6218CB1D
-P 8225 4400
-AR Path="/5CAB7CD4/6218CB1D" Ref="R?"  Part="1" 
-AR Path="/5CB5889B/6218CB1D" Ref="R66"  Part="1" 
-F 0 "R66" V 8522 4400 50  0000 C CNN
-F 1 "0" V 8431 4400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8155 4400 50  0001 C CNN
-F 3 "~" H 8225 4400 50  0001 C CNN
-F 4 "Do Not Place" V 8340 4400 50  0000 C CNN "DNP"
-	1    8225 4400
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	8075 4400 7975 4400
-Wire Wire Line
-	7975 4400 7975 3700
-Wire Wire Line
-	8375 4400 8475 4400
-Wire Wire Line
-	8475 4400 8475 3700
-Wire Wire Line
-	11125 5275 10625 5275
-Wire Wire Line
-	11125 5175 10625 5175
-Text Label 11125 5275 2    50   ~ 0
-ADC_SDA_5V
-Text Label 11125 5175 2    50   ~ 0
-ADC_SCL_5V
-Text GLabel 8550 3700 2    50   BiDi ~ 0
-ADC_SCL_3V3
-Text GLabel 6200 3675 2    50   BiDi ~ 0
-ADC_SDA_3V3
-Text Notes 7075 6450 0    50   ~ 0
+Text Notes 5800 5225 0    50   ~ 0
 In the case MAX11614 is not avaible, MAX11615\ncan be placed. In this case, FB7 must not be placed,\nbut FB8 instead. Also the I2C levelshifter transistors and\nthe 5 V pull ups must no be placed.
-Wire Wire Line
-	9350 2875 9925 2875
-Text Label 9350 2875 0    50   ~ 0
-FPGA_INO_SCK
-Wire Wire Line
-	9350 2975 9925 2975
-Text Label 9350 2975 0    50   ~ 0
-FPGA_INO_MISO
-Wire Wire Line
-	9350 3275 9925 3275
-Text Label 9350 3275 0    50   ~ 0
-FPGA_INO_MOSI
-Wire Wire Line
-	9350 3375 9925 3375
-Text Label 9350 3375 0    50   ~ 0
-FPGA_INO_SS
-Wire Wire Line
-	9350 3475 9925 3475
-Text Label 9350 3475 0    50   ~ 0
-FPGA_INO_D9
-Wire Wire Line
-	9350 3575 9925 3575
-Text Label 9350 3575 0    50   ~ 0
-FPGA_INO_D8
-Wire Wire Line
-	9350 3175 9925 3175
-Text Label 9350 3175 0    50   ~ 0
-FPGA_INO_SCL
-Wire Wire Line
-	9350 3075 9925 3075
-Text Label 9350 3075 0    50   ~ 0
-FPGA_INO_SDA
-Wire Wire Line
-	1750 1300 2325 1300
-Text Label 1750 1300 0    50   ~ 0
-OE0
-Wire Wire Line
-	1750 1900 2325 1900
-Text Label 1750 1900 0    50   ~ 0
-FPGA_INO_D7
-Wire Wire Line
-	1750 1800 2325 1800
-Text Label 1750 1800 0    50   ~ 0
-FPGA_INO_D6
-Wire Wire Line
-	1750 1700 2325 1700
-Text Label 1750 1700 0    50   ~ 0
-FPGA_INO_D5
-Wire Wire Line
-	1750 1600 2325 1600
-Text Label 1750 1600 0    50   ~ 0
-FPGA_INO_D4
-Wire Wire Line
-	1750 1500 2325 1500
-Text Label 1750 1500 0    50   ~ 0
-FPGA_INO_D3
-Wire Wire Line
-	9350 3675 9925 3675
-Text Label 9350 3675 0    50   ~ 0
-OE1
-Wire Wire Line
-	1775 2700 2325 2700
-Text GLabel 1775 2700 0    39   Input ~ 0
-TXD
-Text Label 1750 1200 0    50   ~ 0
-FPGA_INO_RX
-Wire Wire Line
-	1750 1200 2325 1200
-Text Label 1750 1100 0    50   ~ 0
-FPGA_INO_TX
-Wire Wire Line
-	1750 1100 2325 1100
-Wire Wire Line
-	1750 1400 2325 1400
-Text Label 1750 1400 0    50   ~ 0
-FPGA_INO_D2
-Wire Wire Line
-	9700 1875 9925 1875
-Text Label 9700 1875 0    50   ~ 0
-P10_2
-Text Label 5625 3025 3    50   ~ 0
-ADC_VCC
-Wire Wire Line
-	5625 3025 5625 3325
-Text Label 7975 3050 3    50   ~ 0
-ADC_VCC
-Wire Wire Line
-	7975 3050 7975 3350
 $Comp
-L power:+5V #PWR0195
-U 1 1 5D0933F6
-P 1000 6025
-F 0 "#PWR0195" H 1000 5875 50  0001 C CNN
-F 1 "+5V" H 1015 6198 50  0000 C CNN
-F 2 "" H 1000 6025 50  0001 C CNN
-F 3 "" H 1000 6025 50  0001 C CNN
-	1    1000 6025
+L power:PWR_FLAG #FLG09
+U 1 1 5D9DA608
+P 6375 4150
+F 0 "#FLG09" H 6375 4225 50  0001 C CNN
+F 1 "PWR_FLAG" V 6375 4277 50  0000 L CNN
+F 2 "" H 6375 4150 50  0001 C CNN
+F 3 "~" H 6375 4150 50  0001 C CNN
+	1    6375 4150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1000 6025 1375 6025
+	6375 4150 6425 4150
+Text HLabel 6775 3825 1    50   BiDi ~ 0
+3V3
+Text HLabel 6600 4650 3    50   BiDi ~ 0
+GND
+Text HLabel 6425 3825 1    50   BiDi ~ 0
+5V
+Text Label 8825 5125 0    50   ~ 0
+INO_A0
+Wire Wire Line
+	8825 5125 9225 5125
+Text Label 8825 5025 0    50   ~ 0
+INO_A1
+Wire Wire Line
+	8825 5025 9225 5025
+Text Label 8825 4925 0    50   ~ 0
+INO_A2
+Wire Wire Line
+	8825 4925 9225 4925
+Text Label 8825 4825 0    50   ~ 0
+INO_A3
+Wire Wire Line
+	8825 4825 9225 4825
+Text Label 8825 4725 0    50   ~ 0
+INO_A4
+Wire Wire Line
+	8825 4725 9225 4725
+Text Label 8825 4625 0    50   ~ 0
+INO_A5
+Wire Wire Line
+	8825 4625 9225 4625
 $Comp
-L Analog_Switch:MAX40200AUK U?
-U 1 1 5D0C54A3
-P 2200 3950
-AR Path="/5CA8FBC7/5D0C54A3" Ref="U?"  Part="1" 
-AR Path="/5CB5889B/5D0C54A3" Ref="U22"  Part="1" 
-F 0 "U22" H 2200 4317 50  0000 C CNN
-F 1 "MAX40200AUK" H 2200 4226 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2200 4450 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf" H 2200 4450 50  0001 C CNN
-F 4 "Maxim Integrated" H 2200 3950 50  0001 C CNN "Mfg Name"
-F 5 "MAX40200AUK+T" H 2200 3950 50  0001 C CNN "Mfg Part Num"
-F 6 "MAX40200AUK+TCT-ND" H 2200 3950 50  0001 C CNN "Digikey"
-F 7 "IC DIODE CURRENT SWITCH SOT23-5" H 2200 3950 50  0001 C CNN "Description"
-F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
-	1    2200 3950
-	1    0    0    -1  
-$EndComp
-Text Label 3000 3850 2    50   ~ 0
-INO_3V3
-Wire Wire Line
-	3000 3850 2700 3850
-$Comp
-L power:GND #PWR0201
-U 1 1 5D10E3B8
-P 2200 4350
-F 0 "#PWR0201" H 2200 4100 50  0001 C CNN
-F 1 "GND" H 2205 4177 50  0000 C CNN
-F 2 "" H 2200 4350 50  0001 C CNN
-F 3 "" H 2200 4350 50  0001 C CNN
-	1    2200 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2200 4250 2200 4300
-$Comp
-L power:+3V3 #PWR0202
-U 1 1 5D123840
-P 1700 3750
-F 0 "#PWR0202" H 1700 3600 50  0001 C CNN
-F 1 "+3V3" H 1715 3923 50  0000 C CNN
-F 2 "" H 1700 3750 50  0001 C CNN
-F 3 "" H 1700 3750 50  0001 C CNN
-	1    1700 3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 3750 1700 3850
-Wire Wire Line
-	1700 4050 1800 4050
-Wire Wire Line
-	1800 3850 1700 3850
-Connection ~ 1700 3850
-Wire Wire Line
-	1700 3850 1700 4050
-$Comp
-L Device:C C?
-U 1 1 5D151874
-P 2700 4125
-AR Path="/5CA8FBC7/5D151874" Ref="C?"  Part="1" 
-AR Path="/5CAB8B22/5D151874" Ref="C?"  Part="1" 
-AR Path="/5CB5889B/5D151874" Ref="C88"  Part="1" 
-F 0 "C88" H 2815 4171 50  0000 L CNN
-F 1 "10 uF 6,3 V" H 2815 4080 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2738 3975 50  0001 C CNN
-F 3 "~" H 2700 4125 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 2700 4125 50  0001 C CNN "Mfg Name"
-F 5 "CL10A106MQ8NNNC" H 2700 4125 50  0001 C CNN "Mfg Part Num"
-F 6 "1276-1119-1-ND" H 2700 4125 50  0001 C CNN "Digikey"
-F 7 "CAP CER 10UF 6.3V X5R 0603" H 2700 4125 50  0001 C CNN "Description"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    2700 4125
+L Analog_ADC:MAX11614 U13
+U 1 1 61CA90A4
+P 9725 5125
+F 0 "U13" H 9350 4375 50  0000 C CNN
+F 1 "MAX11614" H 9950 5775 50  0000 C CNN
+F 2 "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm" H 10175 4475 50  0001 L CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX11612-MAX11617.pdf" H 9825 5925 50  0001 C CNN
+F 4 "Maxim Integrated" H 9725 5125 50  0001 C CNN "Mfg Name"
+F 5 "MAX11614EEE+" H 9725 5125 50  0001 C CNN "Mfg Part Num"
+F 6 "MAX11614EEE+-ND" H 9725 5125 50  0001 C CNN "Digikey"
+F 7 "IC ADC SERIAL 12BIT 8CH 16-QSOP" H 9725 5125 50  0001 C CNN "Description"
+F 8 "Spec" H -400 -50 50  0001 C CNN "Spec"
+	1    9725 5125
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 3975 2700 3850
+	9725 6000 9725 5925
+Text Label 9725 4075 3    50   ~ 0
+ADC_VCC
 Wire Wire Line
-	2700 3850 2600 3850
+	9725 4075 9725 4425
 Wire Wire Line
-	2700 4275 2700 4300
+	10725 5225 10225 5225
 Wire Wire Line
-	2700 4300 2200 4300
-Connection ~ 2200 4300
-Wire Wire Line
-	2200 4300 2200 4350
-NoConn ~ 1375 6325
-Wire Wire Line
-	1075 2350 1075 2450
-Text GLabel 1775 3200 0    50   Input ~ 0
-PG
-Wire Wire Line
-	1875 3200 1775 3200
-Wire Wire Line
-	1875 3200 1875 3100
-Connection ~ 1875 3100
-Wire Wire Line
-	1875 3100 1775 3100
-Text GLabel 9100 4825 1    50   Input ~ 0
-V_IN_PROTECTED
+	10725 5125 10225 5125
+Text Label 10725 5225 2    50   ~ 0
+ADC_SDA_5V
+Text Label 10725 5125 2    50   ~ 0
+ADC_SCL_5V
 $Comp
 L Device:R R?
 U 1 1 5D674E9A
-P 9100 5075
+P 8700 5025
 AR Path="/5CAB7CD4/5D674E9A" Ref="R?"  Part="1" 
-AR Path="/5CB5889B/5D674E9A" Ref="R55"  Part="1" 
-F 0 "R55" H 9030 5121 50  0000 R CNN
-F 1 "270k 1%" H 9030 5030 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 5075 50  0001 C CNN
-F 3 "~" H 9100 5075 50  0001 C CNN
-F 4 "RES SMD 270K OHM 1% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
-F 5 "311-270KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Yageo" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "RC0603FR-07270KL" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    9100 5075
+AR Path="/5CB5889B/5D674E9A" Ref="R?"  Part="1" 
+AR Path="/5ED96D61/5D674E9A" Ref="R51"  Part="1" 
+F 0 "R51" H 8630 5071 50  0000 R CNN
+F 1 "270k 1%" H 8630 4980 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8630 5025 50  0001 C CNN
+F 3 "~" H 8700 5025 50  0001 C CNN
+F 4 "RES SMD 270K OHM 1% 1/10W 0603" H -400 -50 50  0001 C CNN "Description"
+F 5 "311-270KHRCT-ND" H -400 -50 50  0001 C CNN "Digikey"
+F 6 "Yageo" H -400 -50 50  0001 C CNN "Mfg Name"
+F 7 "RC0603FR-07270KL" H -400 -50 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -400 -50 50  0001 C CNN "Spec"
+	1    8700 5025
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9100 4925 9100 4825
+	8700 4875 8700 4750
 $Comp
 L Device:R R?
 U 1 1 5D68C01F
-P 9100 5450
+P 8700 5400
 AR Path="/5CAB7CD4/5D68C01F" Ref="R?"  Part="1" 
-AR Path="/5CB5889B/5D68C01F" Ref="R69"  Part="1" 
-F 0 "R69" H 9030 5496 50  0000 R CNN
-F 1 "30k 1%" H 9030 5405 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 5450 50  0001 C CNN
-F 3 "~" H 9100 5450 50  0001 C CNN
-F 4 "RES SMD 30K OHM 1% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
-F 5 "311-30.0KHRCT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Yageo" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "RC0603FR-0730KL" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    9100 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5D6A3356
-P 9100 5700
-AR Path="/5CAB8B22/5D6A3356" Ref="#PWR?"  Part="1" 
-AR Path="/5CB5889B/5D6A3356" Ref="#PWR0207"  Part="1" 
-F 0 "#PWR0207" H 9100 5450 50  0001 C CNN
-F 1 "GND" H 9105 5527 50  0000 C CNN
-F 2 "" H 9100 5700 50  0001 C CNN
-F 3 "" H 9100 5700 50  0001 C CNN
-	1    9100 5700
+AR Path="/5CB5889B/5D68C01F" Ref="R?"  Part="1" 
+AR Path="/5ED96D61/5D68C01F" Ref="R52"  Part="1" 
+F 0 "R52" H 8630 5446 50  0000 R CNN
+F 1 "30k 1%" H 8630 5355 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8630 5400 50  0001 C CNN
+F 3 "~" H 8700 5400 50  0001 C CNN
+F 4 "RES SMD 30K OHM 1% 1/10W 0603" H -400 -50 50  0001 C CNN "Description"
+F 5 "311-30.0KHRCT-ND" H -400 -50 50  0001 C CNN "Digikey"
+F 6 "Yageo" H -400 -50 50  0001 C CNN "Mfg Name"
+F 7 "RC0603FR-0730KL" H -400 -50 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -400 -50 50  0001 C CNN "Spec"
+	1    8700 5400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9100 5700 9100 5600
+	8700 5650 8700 5550
 Wire Wire Line
-	9100 5225 9100 5275
+	8700 5175 8700 5225
 Wire Wire Line
-	9625 5275 9100 5275
-Connection ~ 9100 5275
+	9225 5225 8700 5225
+Connection ~ 8700 5225
 Wire Wire Line
-	9100 5275 9100 5300
-$Comp
-L power:+5V #PWR0208
-U 1 1 5D77E5F0
-P 1000 5725
-F 0 "#PWR0208" H 1000 5575 50  0001 C CNN
-F 1 "+5V" H 1015 5898 50  0000 C CNN
-F 2 "" H 1000 5725 50  0001 C CNN
-F 3 "" H 1000 5725 50  0001 C CNN
-	1    1000 5725
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1000 5725 1375 5725
-NoConn ~ 9625 5375
-Text Label 2325 5675 0    50   ~ 0
+	8700 5225 8700 5250
+NoConn ~ 9225 5325
+Text Label 8850 5275 3    50   ~ 0
 INO_AREF
-Wire Wire Line
-	2325 5675 2725 5675
-Text Label 9250 5325 3    50   ~ 0
-INO_AREF
-$Comp
-L power:PWR_FLAG #FLG0109
-U 1 1 5D9DA608
-P 7650 5375
-F 0 "#FLG0109" H 7650 5450 50  0001 C CNN
-F 1 "PWR_FLAG" V 7650 5502 50  0000 L CNN
-F 2 "" H 7650 5375 50  0001 C CNN
-F 3 "~" H 7650 5375 50  0001 C CNN
-	1    7650 5375
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7650 5375 7700 5375
 $Comp
 L Device:R R?
 U 1 1 5DA5F71A
-P 9400 5775
+P 9000 5725
 AR Path="/5CAB7CD4/5DA5F71A" Ref="R?"  Part="1" 
-AR Path="/5CB5889B/5DA5F71A" Ref="R70"  Part="1" 
-F 0 "R70" H 9470 5821 50  0000 L CNN
-F 1 "1k" H 9470 5730 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9330 5775 50  0001 C CNN
-F 3 "~" H 9400 5775 50  0001 C CNN
-F 4 "RES SMD 1K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
-F 5 "311-1.0KGRCT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Yageo" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "RC0603JR-071KL" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    9400 5775
+AR Path="/5CB5889B/5DA5F71A" Ref="R?"  Part="1" 
+AR Path="/5ED96D61/5DA5F71A" Ref="R53"  Part="1" 
+F 0 "R53" H 9070 5771 50  0000 L CNN
+F 1 "1k" H 9070 5680 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8930 5725 50  0001 C CNN
+F 3 "~" H 9000 5725 50  0001 C CNN
+F 4 "RES SMD 1K OHM 5% 1/10W 0603" H -400 -50 50  0001 C CNN "Description"
+F 5 "311-1.0KGRCT-ND" H -400 -50 50  0001 C CNN "Digikey"
+F 6 "Yageo" H -400 -50 50  0001 C CNN "Mfg Name"
+F 7 "RC0603JR-071KL" H -400 -50 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -400 -50 50  0001 C CNN "Spec"
+	1    9000 5725
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9250 5325 9250 5775
+	8850 5275 8850 5725
 Wire Wire Line
-	9550 5775 9575 5775
+	9150 5725 9175 5725
 $Comp
 L Device:C C?
 U 1 1 5DA8D0F0
-P 9575 6000
+P 9175 5950
 AR Path="/5CAB7CD4/5DA8D0F0" Ref="C?"  Part="1" 
 AR Path="/5CAB8B22/5DA8D0F0" Ref="C?"  Part="1" 
-AR Path="/5CB5889B/5DA8D0F0" Ref="C80"  Part="1" 
-F 0 "C80" H 9461 6046 50  0000 R CNN
-F 1 "100nF 6,3 V" H 9461 5955 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 9613 5850 50  0001 C CNN
-F 3 "~" H 9575 6000 50  0001 C CNN
-F 4 "CAP CER 0.1UF 50V X7R 0603" H 0   0   50  0001 C CNN "Description"
-F 5 "1276-1000-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Samsung Electro-Mechanics" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    9575 6000
+AR Path="/5CB5889B/5DA8D0F0" Ref="C?"  Part="1" 
+AR Path="/5ED96D61/5DA8D0F0" Ref="C63"  Part="1" 
+F 0 "C63" H 9061 5996 50  0000 R CNN
+F 1 "100nF 6,3 V" H 9061 5905 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9213 5800 50  0001 C CNN
+F 3 "~" H 9175 5950 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H -400 -50 50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H -400 -50 50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H -400 -50 50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H -400 -50 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -400 -50 50  0001 C CNN "Spec"
+	1    9175 5950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9575 5850 9575 5775
-Connection ~ 9575 5775
+	9175 5800 9175 5725
+Connection ~ 9175 5725
 Wire Wire Line
-	9575 5775 9625 5775
+	9175 5725 9225 5725
+Wire Wire Line
+	9175 6150 9175 6100
+Text HLabel 9725 6000 3    50   BiDi ~ 0
+GND
+Text HLabel 9175 6150 3    50   BiDi ~ 0
+GND
+Text HLabel 8700 5650 3    50   BiDi ~ 0
+GND
+Text HLabel 8700 4750 1    50   Input ~ 0
+V_IN_PROTECTED
 $Comp
-L power:GND #PWR?
-U 1 1 5DAA3F6E
-P 9575 6200
-AR Path="/5CAB8B22/5DAA3F6E" Ref="#PWR?"  Part="1" 
-AR Path="/5CB5889B/5DAA3F6E" Ref="#PWR0209"  Part="1" 
-F 0 "#PWR0209" H 9575 5950 50  0001 C CNN
-F 1 "GND" H 9580 6027 50  0000 C CNN
-F 2 "" H 9575 6200 50  0001 C CNN
-F 3 "" H 9575 6200 50  0001 C CNN
-	1    9575 6200
-	1    0    0    -1  
+L Device:Q_NMOS_GSD Q4
+U 1 1 61A963F1
+P 6175 6250
+F 0 "Q4" V 6426 6250 50  0000 C CNN
+F 1 "Q_NMOS_GSD" V 6517 6250 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6375 6350 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/DMN65D8L.pdf" H 6175 6250 50  0001 C CNN
+F 4 "MOSFET N-CH 60V 310MA SOT23" H -2050 2650 50  0001 C CNN "Description"
+F 5 "DMN65D8L-7DICT-ND" H -2050 2650 50  0001 C CNN "Digikey"
+F 6 "Diodes Incorporated" H -2050 2650 50  0001 C CNN "Mfg Name"
+F 7 "DMN65D8L-7" H -2050 2650 50  0001 C CNN "Mfg Part Num"
+F 8 "Spec" H -2050 2650 50  0001 C CNN "Spec"
+	1    6175 6250
+	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	9575 6200 9575 6150
-Text Label 1475 3350 0    50   ~ 0
-INO_RESET
-Wire Wire Line
-	1475 3350 1875 3350
-$Comp
-L Device:D_ALT D?
-U 1 1 5DC1B79F
-P 2025 3350
-AR Path="/5CA8FBC7/5DC1B79F" Ref="D?"  Part="1" 
-AR Path="/5CAB8B22/5DC1B79F" Ref="D?"  Part="1" 
-AR Path="/5CB5889B/5DC1B79F" Ref="D19"  Part="1" 
-F 0 "D19" H 2025 3566 50  0000 C CNN
-F 1 "CDBU5020" H 2025 3475 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 2025 3350 50  0001 C CNN
-F 3 "http://www.comchiptech.com/admin/files/product/CDBU0520-HF-RevA797161.pdf" H 2025 3350 50  0001 C CNN
-F 4 "Comchip Technology" H 2025 3350 50  0001 C CNN "Mfg Name"
-F 5 "CDBU0520" H 2025 3350 50  0001 C CNN "Mfg Part Num"
-F 6 "641-1332-1-ND" H 2025 3350 50  0001 C CNN "Digikey"
-F 7 "DIODE SCHOTTKY 20V 500MA 0603" H 2025 3350 50  0001 C CNN "Description"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    2025 3350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2175 3350 2250 3350
-Wire Wire Line
-	2250 3350 2250 3100
-Connection ~ 2250 3100
-Wire Wire Line
-	2250 3100 1875 3100
-$Comp
-L Analog_Switch:MAX40200AUK U?
-U 1 1 5CEBB238
-P 4075 3975
-AR Path="/5CA8FBC7/5CEBB238" Ref="U?"  Part="1" 
-AR Path="/5CB5889B/5CEBB238" Ref="U23"  Part="1" 
-F 0 "U23" H 4075 4342 50  0000 C CNN
-F 1 "MAX40200AUK" H 4075 4251 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4075 4475 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf" H 4075 4475 50  0001 C CNN
-F 4 "Maxim Integrated" H 4075 3975 50  0001 C CNN "Mfg Name"
-F 5 "MAX40200AUK+T" H 4075 3975 50  0001 C CNN "Mfg Part Num"
-F 6 "MAX40200AUK+TCT-ND" H 4075 3975 50  0001 C CNN "Digikey"
-F 7 "IC DIODE CURRENT SWITCH SOT23-5" H 4075 3975 50  0001 C CNN "Description"
-F 8 "Spec" H 1875 25  50  0001 C CNN "Spec"
-	1    4075 3975
-	1    0    0    -1  
-$EndComp
-Text Label 5050 3875 2    50   ~ 0
-PMOD_3V3
-$Comp
-L power:GND #PWR0206
-U 1 1 5CEBB244
-P 4075 4375
-F 0 "#PWR0206" H 4075 4125 50  0001 C CNN
-F 1 "GND" H 4080 4202 50  0000 C CNN
-F 2 "" H 4075 4375 50  0001 C CNN
-F 3 "" H 4075 4375 50  0001 C CNN
-	1    4075 4375
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4075 4275 4075 4325
-$Comp
-L power:+3V3 #PWR0210
-U 1 1 5CEBB24F
-P 3575 3775
-F 0 "#PWR0210" H 3575 3625 50  0001 C CNN
-F 1 "+3V3" H 3590 3948 50  0000 C CNN
-F 2 "" H 3575 3775 50  0001 C CNN
-F 3 "" H 3575 3775 50  0001 C CNN
-	1    3575 3775
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3575 3775 3575 3875
-Wire Wire Line
-	3675 3875 3575 3875
-$Comp
-L Device:C C?
-U 1 1 5CEBB263
-P 4575 4150
-AR Path="/5CA8FBC7/5CEBB263" Ref="C?"  Part="1" 
-AR Path="/5CAB8B22/5CEBB263" Ref="C?"  Part="1" 
-AR Path="/5CB5889B/5CEBB263" Ref="C92"  Part="1" 
-F 0 "C92" H 4690 4196 50  0000 L CNN
-F 1 "10 uF 6,3 V" H 4690 4105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4613 4000 50  0001 C CNN
-F 3 "~" H 4575 4150 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 4575 4150 50  0001 C CNN "Mfg Name"
-F 5 "CL10A106MQ8NNNC" H 4575 4150 50  0001 C CNN "Mfg Part Num"
-F 6 "1276-1119-1-ND" H 4575 4150 50  0001 C CNN "Digikey"
-F 7 "CAP CER 10UF 6.3V X5R 0603" H 4575 4150 50  0001 C CNN "Description"
-F 8 "Any" H 1875 25  50  0001 C CNN "Spec"
-	1    4575 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4575 4000 4575 3875
-Connection ~ 4575 3875
-Wire Wire Line
-	4575 3875 4475 3875
-Wire Wire Line
-	4575 4300 4575 4325
-Wire Wire Line
-	4575 4325 4075 4325
-Connection ~ 4075 4325
-Wire Wire Line
-	4075 4325 4075 4375
-Text Label 6425 1900 2    50   ~ 0
-PMOD_3V3
-Text Label 5175 1900 0    50   ~ 0
-PMOD_3V3
-Wire Wire Line
-	5550 1900 5175 1900
-Text Label 8350 1900 2    50   ~ 0
-PMOD_3V3
-Wire Wire Line
-	7975 1900 8350 1900
-Text Label 7100 1900 0    50   ~ 0
-PMOD_3V3
-Wire Wire Line
-	7475 1900 7100 1900
-Text Label 5175 2800 0    50   ~ 0
-PMOD_3V3
-Wire Wire Line
-	5550 2800 5175 2800
-Text Label 6425 2800 2    50   ~ 0
-PMOD_3V3
-Wire Wire Line
-	6050 2800 6425 2800
-$Comp
-L Device:C C?
-U 1 1 5D0EC431
-P 5175 4125
-AR Path="/5CA8FBC7/5D0EC431" Ref="C?"  Part="1" 
-AR Path="/5CAB8B22/5D0EC431" Ref="C?"  Part="1" 
-AR Path="/5CB5889B/5D0EC431" Ref="C91"  Part="1" 
-F 0 "C91" H 5290 4171 50  0000 L CNN
-F 1 "10 uF 6,3 V" H 5290 4080 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5213 3975 50  0001 C CNN
-F 3 "~" H 5175 4125 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 5175 4125 50  0001 C CNN "Mfg Name"
-F 5 "CL10A106MQ8NNNC" H 5175 4125 50  0001 C CNN "Mfg Part Num"
-F 6 "1276-1119-1-ND" H 5175 4125 50  0001 C CNN "Digikey"
-F 7 "CAP CER 10UF 6.3V X5R 0603" H 5175 4125 50  0001 C CNN "Description"
-F 8 "Any" H 2475 0   50  0001 C CNN "Spec"
-	1    5175 4125
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5175 3875 5175 3975
-Wire Wire Line
-	4575 3875 5175 3875
-Wire Wire Line
-	5175 4275 5175 4325
-Wire Wire Line
-	5175 4325 4575 4325
-Connection ~ 4575 4325
-Text Label 3150 4075 0    50   ~ 0
-PMOD_PWR_EN
-Connection ~ 2700 3850
-Wire Wire Line
-	3150 4075 3550 4075
-Text Label 9350 2675 0    50   ~ 0
-PMOD_PWR_EN
-Wire Wire Line
-	9350 2675 9925 2675
-NoConn ~ 9925 2775
 $Comp
 L Device:R R?
-U 1 1 5D253BB6
-P 3550 4300
-AR Path="/5CAB7CD4/5D253BB6" Ref="R?"  Part="1" 
-AR Path="/5CB5889B/5D253BB6" Ref="R71"  Part="1" 
-F 0 "R71" H 3480 4346 50  0000 R CNN
-F 1 "10k" H 3480 4255 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3480 4300 50  0001 C CNN
-F 3 "~" H 3550 4300 50  0001 C CNN
-F 4 "RES 10K OHM 5% 1/10W 0603" H 0   0   50  0001 C CNN "Description"
-F 5 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Stackpole Electronics Inc" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    3550 4300
+U 1 1 61B988CD
+P 5925 6150
+AR Path="/5CAB7CD4/61B988CD" Ref="R?"  Part="1" 
+AR Path="/5CB5889B/61B988CD" Ref="R?"  Part="1" 
+AR Path="/5ED96D61/61B988CD" Ref="R48"  Part="1" 
+F 0 "R48" H 5855 6196 50  0000 R CNN
+F 1 "4,7k" H 5855 6105 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5855 6150 50  0001 C CNN
+F 3 "~" H 5925 6150 50  0001 C CNN
+F 4 "RES 4.7K OHM 5% 1/10W 0603" H -2050 2650 50  0001 C CNN "Description"
+F 5 "RMCF0603JT4K70CT-ND" H -2050 2650 50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H -2050 2650 50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT4K70" H -2050 2650 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -2050 2650 50  0001 C CNN "Spec"
+	1    5925 6150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3550 4150 3550 4075
-Connection ~ 3550 4075
-Wire Wire Line
-	3550 4075 3675 4075
 $Comp
-L power:GND #PWR0211
-U 1 1 5D27428A
-P 3550 4525
-F 0 "#PWR0211" H 3550 4275 50  0001 C CNN
-F 1 "GND" H 3555 4352 50  0000 C CNN
-F 2 "" H 3550 4525 50  0001 C CNN
-F 3 "" H 3550 4525 50  0001 C CNN
-	1    3550 4525
+L Device:R R?
+U 1 1 61BA0864
+P 6425 6150
+AR Path="/5CAB7CD4/61BA0864" Ref="R?"  Part="1" 
+AR Path="/5CB5889B/61BA0864" Ref="R?"  Part="1" 
+AR Path="/5ED96D61/61BA0864" Ref="R50"  Part="1" 
+F 0 "R50" H 6495 6196 50  0000 L CNN
+F 1 "4,7k" H 6495 6105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6355 6150 50  0001 C CNN
+F 3 "~" H 6425 6150 50  0001 C CNN
+F 4 "RES 4.7K OHM 5% 1/10W 0603" H -2050 2650 50  0001 C CNN "Description"
+F 5 "RMCF0603JT4K70CT-ND" H -2050 2650 50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H -2050 2650 50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT4K70" H -2050 2650 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -2050 2650 50  0001 C CNN "Spec"
+	1    6425 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3550 4525 3550 4450
-Text GLabel 5325 1700 0    50   BiDi ~ 0
+	6175 6050 6175 5975
+Wire Wire Line
+	6175 5975 6300 5975
+Wire Wire Line
+	6425 5975 6425 6000
+Wire Wire Line
+	6300 5950 6300 5975
+Connection ~ 6300 5975
+Wire Wire Line
+	6300 5975 6425 5975
+Wire Wire Line
+	5925 6300 5925 6350
+Wire Wire Line
+	5925 6350 5975 6350
+Wire Wire Line
+	6375 6350 6425 6350
+$Comp
+L Device:Q_NMOS_GSD Q3
+U 1 1 61CC0B76
+P 4375 6275
+F 0 "Q3" V 4626 6275 50  0000 C CNN
+F 1 "Q_NMOS_GSD" V 4717 6275 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4575 6375 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/DMN65D8L.pdf" H 4375 6275 50  0001 C CNN
+F 4 "MOSFET N-CH 60V 310MA SOT23" H -1500 2700 50  0001 C CNN "Description"
+F 5 "DMN65D8L-7DICT-ND" H -1500 2700 50  0001 C CNN "Digikey"
+F 6 "Diodes Incorporated" H -1500 2700 50  0001 C CNN "Mfg Name"
+F 7 "DMN65D8L-7" H -1500 2700 50  0001 C CNN "Mfg Part Num"
+F 8 "Spec" H -1500 2700 50  0001 C CNN "Spec"
+	1    4375 6275
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61CC0B80
+P 4125 6175
+AR Path="/5CAB7CD4/61CC0B80" Ref="R?"  Part="1" 
+AR Path="/5CB5889B/61CC0B80" Ref="R?"  Part="1" 
+AR Path="/5ED96D61/61CC0B80" Ref="R45"  Part="1" 
+F 0 "R45" H 4055 6221 50  0000 R CNN
+F 1 "4,7k" H 4055 6130 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4055 6175 50  0001 C CNN
+F 3 "~" H 4125 6175 50  0001 C CNN
+F 4 "RES 4.7K OHM 5% 1/10W 0603" H -1500 2700 50  0001 C CNN "Description"
+F 5 "RMCF0603JT4K70CT-ND" H -1500 2700 50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H -1500 2700 50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT4K70" H -1500 2700 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -1500 2700 50  0001 C CNN "Spec"
+	1    4125 6175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61CC0B8A
+P 4625 6175
+AR Path="/5CAB7CD4/61CC0B8A" Ref="R?"  Part="1" 
+AR Path="/5CB5889B/61CC0B8A" Ref="R?"  Part="1" 
+AR Path="/5ED96D61/61CC0B8A" Ref="R47"  Part="1" 
+F 0 "R47" H 4695 6221 50  0000 L CNN
+F 1 "4,7k" H 4695 6130 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4555 6175 50  0001 C CNN
+F 3 "~" H 4625 6175 50  0001 C CNN
+F 4 "RES 4.7K OHM 5% 1/10W 0603" H -1500 2700 50  0001 C CNN "Description"
+F 5 "RMCF0603JT4K70CT-ND" H -1500 2700 50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H -1500 2700 50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT4K70" H -1500 2700 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -1500 2700 50  0001 C CNN "Spec"
+	1    4625 6175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4375 6075 4375 6000
+Wire Wire Line
+	4375 6000 4500 6000
+Wire Wire Line
+	4625 6000 4625 6025
+Wire Wire Line
+	4500 5975 4500 6000
+Connection ~ 4500 6000
+Wire Wire Line
+	4500 6000 4625 6000
+Wire Wire Line
+	4125 6325 4125 6375
+Wire Wire Line
+	4575 6375 4625 6375
+Wire Wire Line
+	4625 6375 4625 6325
+Wire Wire Line
+	4700 6375 4625 6375
+Wire Wire Line
+	6425 6350 6425 6300
+Wire Wire Line
+	6500 6350 6425 6350
+Connection ~ 6425 6350
+Connection ~ 4625 6375
+Text Label 5450 6350 0    50   ~ 0
+ADC_SCL_5V
+Wire Wire Line
+	5450 6350 5925 6350
+Connection ~ 5925 6350
+Text Label 3650 6375 0    50   ~ 0
+ADC_SDA_5V
+Wire Wire Line
+	3650 6375 4125 6375
+Connection ~ 4125 6375
+Wire Wire Line
+	4125 6375 4175 6375
+$Comp
+L Device:R R?
+U 1 1 61FC04E1
+P 4375 7075
+AR Path="/5CAB7CD4/61FC04E1" Ref="R?"  Part="1" 
+AR Path="/5CB5889B/61FC04E1" Ref="R?"  Part="1" 
+AR Path="/5ED96D61/61FC04E1" Ref="R46"  Part="1" 
+F 0 "R46" V 4672 7075 50  0000 C CNN
+F 1 "0" V 4581 7075 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4305 7075 50  0001 C CNN
+F 3 "~" H 4375 7075 50  0001 C CNN
+F 4 "Do Not Place" V 4490 7075 50  0000 C CNN "DNP"
+	1    4375 7075
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4225 7075 4125 7075
+Wire Wire Line
+	4125 7075 4125 6375
+Wire Wire Line
+	4525 7075 4625 7075
+Wire Wire Line
+	4625 7075 4625 6375
+$Comp
+L Device:R R?
+U 1 1 6218CB1D
+P 6175 7050
+AR Path="/5CAB7CD4/6218CB1D" Ref="R?"  Part="1" 
+AR Path="/5CB5889B/6218CB1D" Ref="R?"  Part="1" 
+AR Path="/5ED96D61/6218CB1D" Ref="R49"  Part="1" 
+F 0 "R49" V 6472 7050 50  0000 C CNN
+F 1 "0" V 6381 7050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6105 7050 50  0001 C CNN
+F 3 "~" H 6175 7050 50  0001 C CNN
+F 4 "Do Not Place" V 6290 7050 50  0000 C CNN "DNP"
+	1    6175 7050
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6025 7050 5925 7050
+Wire Wire Line
+	5925 7050 5925 6350
+Wire Wire Line
+	6325 7050 6425 7050
+Wire Wire Line
+	6425 7050 6425 6350
+Text Label 4125 5725 3    50   ~ 0
+ADC_VCC
+Wire Wire Line
+	4125 5725 4125 6025
+Text Label 5925 5700 3    50   ~ 0
+ADC_VCC
+Wire Wire Line
+	5925 5700 5925 6000
+Text HLabel 4500 5975 1    50   BiDi ~ 0
+3V3
+Text HLabel 6300 5950 1    50   BiDi ~ 0
+3V3
+Text HLabel 4700 6375 2    50   BiDi ~ 0
+ADC_SDA_3V3
+Text HLabel 6500 6350 2    50   BiDi ~ 0
+ADC_SCL_3V3
+Text HLabel 8100 3125 1    50   BiDi ~ 0
+3V3
+Text HLabel 9400 3125 1    50   BiDi ~ 0
+3V3
+Text HLabel 8100 3525 3    50   BiDi ~ 0
+GND
+Text HLabel 8475 2450 0    50   BiDi ~ 0
+FPGA_INO_D[2..9]
+Wire Bus Line
+	8475 2450 9275 2450
+Text Label 9275 2450 2    50   ~ 0
+FPGA_INO_D[2..9]
+Text Label 650  3300 0    50   ~ 0
+INO_3V3
+Wire Wire Line
+	1050 3300 650  3300
+Text HLabel 1050 3200 0    50   BiDi ~ 0
+5V
+Text HLabel 1050 3400 0    50   BiDi ~ 0
+GND
+Text HLabel 1050 3500 0    50   Input ~ 0
+INO_RESET
+Wire Wire Line
+	1050 4400 650  4400
+Text Label 650  4400 0    50   ~ 0
+INO_AREF
+Wire Wire Line
+	1050 4100 650  4100
+Text Label 650  4100 0    50   ~ 0
+INO_A5
+Wire Wire Line
+	1050 4000 650  4000
+Text Label 650  4000 0    50   ~ 0
+INO_A4
+Wire Wire Line
+	1050 3900 650  3900
+Text Label 650  3900 0    50   ~ 0
+INO_A3
+Wire Wire Line
+	1050 3800 650  3800
+Text Label 650  3800 0    50   ~ 0
+INO_A2
+Wire Wire Line
+	1050 3700 650  3700
+Text Label 650  3700 0    50   ~ 0
+INO_A1
+Wire Wire Line
+	1050 3600 650  3600
+Text Label 650  3600 0    50   ~ 0
+INO_A0
+Wire Wire Line
+	1050 4200 650  4200
+Text Label 650  4200 0    50   ~ 0
+INO_SCL
+Wire Wire Line
+	1050 4300 650  4300
+Text Label 650  4300 0    50   ~ 0
+INO_SDA
+Wire Wire Line
+	2500 4200 2100 4200
+Text Label 2500 4200 2    50   ~ 0
+INO_SCK
+Wire Wire Line
+	2500 4300 2100 4300
+Text Label 2500 4300 2    50   ~ 0
+INO_MISO
+Wire Wire Line
+	2500 4400 2100 4400
+Text Label 2500 4400 2    50   ~ 0
+INO_MOSI
+Wire Wire Line
+	2500 4500 2100 4500
+Text Label 2500 4500 2    50   ~ 0
+INO_SS
+Wire Wire Line
+	2500 3800 2100 3800
+Text Label 2500 3900 2    50   ~ 0
+INO_D9
+Wire Wire Line
+	2500 3900 2100 3900
+Text Label 2500 3800 2    50   ~ 0
+INO_D8
+Wire Wire Line
+	2100 3700 2500 3700
+Text Label 2500 3700 2    50   ~ 0
+INO_D7
+Wire Wire Line
+	2100 3600 2500 3600
+Text Label 2500 3600 2    50   ~ 0
+INO_D6
+Wire Wire Line
+	2100 3500 2500 3500
+Text Label 2500 3500 2    50   ~ 0
+INO_D5
+Wire Wire Line
+	2100 3400 2500 3400
+Text Label 2500 3400 2    50   ~ 0
+INO_D4
+Wire Wire Line
+	2100 3300 2500 3300
+Text Label 2500 3300 2    50   ~ 0
+INO_D3
+Wire Wire Line
+	2100 3200 2500 3200
+Text Label 2500 3200 2    50   ~ 0
+INO_D2
+Wire Wire Line
+	2500 4000 2100 4000
+Text Label 2500 4000 2    50   ~ 0
+INO_TX
+Wire Wire Line
+	2500 4100 2100 4100
+Text Label 2500 4100 2    50   ~ 0
+INO_RX
+$Sheet
+S 1050 3100 1050 1500
+U 5EE3E16B
+F0 "ARDUINO_HEADER" 50
+F1 "arduino_header.sch" 50
+F2 "5V" B L 1050 3200 50 
+F3 "GND" B L 1050 3400 50 
+F4 "3V3" B L 1050 3300 50 
+F5 "INO_RESET" I L 1050 3500 50 
+F6 "INO_A0" I L 1050 3600 50 
+F7 "INO_A1" I L 1050 3700 50 
+F8 "INO_A2" I L 1050 3800 50 
+F9 "INO_A3" I L 1050 3900 50 
+F10 "INO_A4" I L 1050 4000 50 
+F11 "INO_A5" I L 1050 4100 50 
+F12 "INO_D2" B R 2100 3200 50 
+F13 "INO_D3" B R 2100 3300 50 
+F14 "INO_D4" B R 2100 3400 50 
+F15 "INO_D5" B R 2100 3500 50 
+F16 "INO_D6" B R 2100 3600 50 
+F17 "INO_D7" B R 2100 3700 50 
+F18 "INO_TX" I R 2100 4000 50 
+F19 "INO_RX" O R 2100 4100 50 
+F20 "INO_D8" B R 2100 3800 50 
+F21 "INO_D9" B R 2100 3900 50 
+F22 "INO_SCK" B R 2100 4200 50 
+F23 "INO_MISO" B R 2100 4300 50 
+F24 "INO_MOSI" B R 2100 4400 50 
+F25 "INO_SS" B R 2100 4500 50 
+F26 "INO_SCL" B L 1050 4200 50 
+F27 "INO_SDA" B L 1050 4300 50 
+F28 "INO_AREF" O L 1050 4400 50 
+$EndSheet
+Text Label 2400 2050 2    50   ~ 0
+PMOD_3V3
+Wire Wire Line
+	2000 2050 2400 2050
+Text HLabel 2000 1950 2    50   Input ~ 0
+GND
+Text HLabel 1150 2650 0    50   BiDi ~ 0
+P10_3
+Text HLabel 1150 2550 0    50   BiDi ~ 0
+P9_3
+Text HLabel 1150 2450 0    50   BiDi ~ 0
+P8_3
+Text HLabel 1150 2350 0    50   BiDi ~ 0
+P7_3
+Text HLabel 2000 1800 2    50   BiDi ~ 0
+P10_2
+Text HLabel 2000 1700 2    50   BiDi ~ 0
+P9_2
+Text HLabel 2000 1600 2    50   BiDi ~ 0
+P8_2
+Text HLabel 2000 1500 2    50   BiDi ~ 0
+P7_2
+Text HLabel 1150 1800 0    50   BiDi ~ 0
 P10_1
-Text GLabel 5325 1600 0    50   BiDi ~ 0
+Text HLabel 1150 1700 0    50   BiDi ~ 0
 P9_1
-Text GLabel 5325 1500 0    50   BiDi ~ 0
+Text HLabel 1150 1600 0    50   BiDi ~ 0
 P8_1
-Text GLabel 5325 1400 0    50   BiDi ~ 0
+Text HLabel 1150 1500 0    50   BiDi ~ 0
 P7_1
-Wire Wire Line
-	5325 1700 5550 1700
-Wire Wire Line
-	5325 1600 5550 1600
-Wire Wire Line
-	5325 1500 5550 1500
-Wire Wire Line
-	5325 1400 5550 1400
-Wire Wire Line
-	9700 2475 9925 2475
-Text Label 9700 2475 0    50   ~ 0
+Text HLabel 2000 1400 2    50   BiDi ~ 0
+P4_2
+Text HLabel 2000 1300 2    50   BiDi ~ 0
+P3_2
+Text HLabel 2000 1200 2    50   BiDi ~ 0
+P2_2
+Text HLabel 2000 1100 2    50   BiDi ~ 0
 P1_2
-Wire Wire Line
-	6275 1600 6050 1600
-Wire Wire Line
-	6275 1700 6050 1700
-Wire Wire Line
-	6375 1800 6050 1800
-Wire Wire Line
-	6050 1900 6425 1900
-Wire Wire Line
-	6275 1400 6050 1400
-Wire Wire Line
-	6275 1500 6050 1500
-$Comp
-L Connector_Generic:Conn_02x06_Odd_Even PMOD1
-U 1 1 5CD7A9BF
-P 5750 1700
-F 0 "PMOD1" H 5800 1175 50  0000 C CNN
-F 1 "Conn_02x06_Odd_Even" H 5800 1266 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 5750 1700 50  0001 C CNN
-F 3 "~" H 5750 1700 50  0001 C CNN
-F 4 "CONN HDR 12POS 0.1 GOLD PCB R/A " H 0   0   50  0001 C CNN "Description"
-F 5 "S5559-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Sullins Connector Solutions" H 0   0   50  0001 C CNN "Mfg Name"
-F 7 "PPPC062LJBN-RC" H 0   0   50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   0   50  0001 C CNN "Spec"
-	1    5750 1700
-	1    0    0    1   
-$EndComp
+Text HLabel 1150 2250 0    50   BiDi ~ 0
+P4_3
+Text HLabel 1150 2150 0    50   BiDi ~ 0
+P3_3
+Text HLabel 1150 2050 0    50   BiDi ~ 0
+P2_3
+Text HLabel 1150 1950 0    50   BiDi ~ 0
+P1_3
+Text HLabel 1150 1400 0    50   BiDi ~ 0
+P4_1
+Text HLabel 1150 1300 0    50   BiDi ~ 0
+P3_1
+Text HLabel 1150 1200 0    50   BiDi ~ 0
+P2_1
+Text HLabel 1150 1100 0    50   BiDi ~ 0
+P1_1
+$Sheet
+S 1150 1000 850  1750
+U 5EE54117
+F0 "PMOD_HEADER" 50
+F1 "pmod_header.sch" 50
+F2 "P1_1" B L 1150 1100 50 
+F3 "P2_1" B L 1150 1200 50 
+F4 "P3_1" B L 1150 1300 50 
+F5 "P4_1" B L 1150 1400 50 
+F6 "P7_1" B L 1150 1500 50 
+F7 "P8_1" B L 1150 1600 50 
+F8 "P9_1" B L 1150 1700 50 
+F9 "P10_1" B L 1150 1800 50 
+F10 "P7_2" B R 2000 1500 50 
+F11 "P8_2" B R 2000 1600 50 
+F12 "P9_2" B R 2000 1700 50 
+F13 "P10_2" B R 2000 1800 50 
+F14 "P7_3" B L 1150 2350 50 
+F15 "P8_3" B L 1150 2450 50 
+F16 "P9_3" B L 1150 2550 50 
+F17 "P10_3" B L 1150 2650 50 
+F18 "P1_2" B R 2000 1100 50 
+F19 "P2_2" B R 2000 1200 50 
+F20 "P3_2" B R 2000 1300 50 
+F21 "P4_2" B R 2000 1400 50 
+F22 "P1_3" B L 1150 1950 50 
+F23 "P2_3" B L 1150 2050 50 
+F24 "P3_3" B L 1150 2150 50 
+F25 "P4_3" B L 1150 2250 50 
+F26 "GND" I R 2000 1950 50 
+F27 "3V3" I R 2000 2050 50 
+$EndSheet
 $EndSCHEMATC
