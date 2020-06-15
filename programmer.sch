@@ -48,13 +48,13 @@ F 8 "Spec" H 0   0   50  0001 C CNN "Spec"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	12700 8725 13275 8725
+	10125 2900 10700 2900
 Wire Wire Line
-	15450 9025 14875 9025
+	12875 3200 12300 3200
 Wire Wire Line
-	12700 8825 13275 8825
+	10125 3000 10700 3000
 Wire Wire Line
-	15450 8925 14875 8925
+	12875 3100 12300 3100
 Wire Wire Line
 	5025 4425 5025 4350
 Wire Wire Line
@@ -329,9 +329,9 @@ Connection ~ 3125 7625
 Wire Wire Line
 	3125 7625 3175 7625
 Wire Wire Line
-	15350 8725 14875 8725
+	12775 2900 12300 2900
 Wire Wire Line
-	12800 9025 13275 9025
+	10225 3200 10700 3200
 Wire Wire Line
 	4625 4425 4625 4350
 Wire Wire Line
@@ -535,45 +535,21 @@ NoConn ~ 6025 7225
 Wire Wire Line
 	9575 4950 9100 4950
 $Comp
-L Device:R R66
-U 1 1 5CD40B26
-P 15100 8825
-F 0 "R66" V 15050 8975 50  0000 C CNN
-F 1 "10k" V 15100 8825 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 15030 8825 50  0001 C CNN
-F 3 "~" H 15100 8825 50  0001 C CNN
-F 4 "RES 10K OHM 5% 1/10W 0603" H 0   700 50  0001 C CNN "Description"
-F 5 "RMCF0603JT10K0CT-ND" H 0   700 50  0001 C CNN "Digikey"
-F 6 "Stackpole Electronics Inc" H 0   700 50  0001 C CNN "Mfg Name"
-F 7 "RMCF0603JT10K0" H 0   700 50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   700 50  0001 C CNN "Spec"
-	1    15100 8825
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	14875 8825 14950 8825
-Wire Wire Line
-	15350 8825 15250 8825
-$Comp
 L Device:R R63
 U 1 1 5CD829A8
-P 13050 8925
-F 0 "R63" V 13000 8775 50  0000 C CNN
-F 1 "10k" V 13050 8925 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 12980 8925 50  0001 C CNN
-F 3 "~" H 13050 8925 50  0001 C CNN
-F 4 "RES 10K OHM 5% 1/10W 0603" H 0   700 50  0001 C CNN "Description"
-F 5 "RMCF0603JT10K0CT-ND" H 0   700 50  0001 C CNN "Digikey"
-F 6 "Stackpole Electronics Inc" H 0   700 50  0001 C CNN "Mfg Name"
-F 7 "RMCF0603JT10K0" H 0   700 50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H 0   700 50  0001 C CNN "Spec"
-	1    13050 8925
-	0    1    1    0   
+P 9675 3250
+F 0 "R63" V 9775 3250 50  0000 C CNN
+F 1 "10k" V 9675 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9605 3250 50  0001 C CNN
+F 3 "~" H 9675 3250 50  0001 C CNN
+F 4 "RES 10K OHM 5% 1/10W 0603" H -3375 -4975 50  0001 C CNN "Description"
+F 5 "RMCF0603JT10K0CT-ND" H -3375 -4975 50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H -3375 -4975 50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT10K0" H -3375 -4975 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -3375 -4975 50  0001 C CNN "Spec"
+	1    9675 3250
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13275 8925 13200 8925
-Wire Wire Line
-	12800 8925 12900 8925
 $Comp
 L Device:R R64
 U 1 1 5CDB3A56
@@ -1865,13 +1841,13 @@ Wire Wire Line
 	14250 6975 14550 6975
 Text HLabel 14400 6975 1    50   Input ~ 0
 3V3_IN
-Text HLabel 15350 8725 2    50   Input ~ 0
+Text HLabel 12775 2900 2    50   Input ~ 0
 3V3_IN
-Text HLabel 15350 8825 2    50   Input ~ 0
+Text HLabel 13175 2700 1    50   Input ~ 0
 3V3_IN
-Text HLabel 12800 8925 0    50   Input ~ 0
+Text HLabel 9675 3400 3    50   Input ~ 0
 3V3_IN
-Text HLabel 12800 9025 0    50   Input ~ 0
+Text HLabel 10225 3200 0    50   Input ~ 0
 GND_IN
 Text HLabel 13725 7350 3    50   Input ~ 0
 GND_IN
@@ -1960,13 +1936,13 @@ Text HLabel 9275 8475 2    50   Input ~ 0
 Text HLabel 9275 8675 2    50   Input ~ 0
 RXD
 Text HLabel 9575 4850 2    50   BiDi ~ 0
-MOSI
+FLASH_IO0
 Text HLabel 9575 4950 2    50   BiDi ~ 0
 SCK
 Text HLabel 9550 5050 2    50   Input ~ 0
 CDONE
 Text HLabel 9550 5150 2    50   BiDi ~ 0
-MISO
+FLASH_IO1
 Text HLabel 12025 5025 2    50   BiDi ~ 0
 SS
 Text HLabel 12025 4925 2    50   Output ~ 0
@@ -1979,14 +1955,14 @@ Text HLabel 11375 8400 2    50   Input ~ 0
 ~DCD~
 Text HLabel 11375 8600 2    50   Input ~ 0
 ~DSR~
-Text HLabel 12700 8725 0    50   BiDi ~ 0
+Text HLabel 10125 2900 0    50   BiDi ~ 0
 SS
-Text HLabel 12700 8825 0    50   BiDi ~ 0
-MISO
-Text HLabel 15450 8925 2    50   BiDi ~ 0
+Text HLabel 10125 3000 0    50   BiDi ~ 0
+FLASH_IO1
+Text HLabel 12875 3100 2    50   BiDi ~ 0
 SCK
-Text HLabel 15450 9025 2    50   BiDi ~ 0
-MOSI
+Text HLabel 12875 3200 2    50   BiDi ~ 0
+FLASH_IO0
 Text HLabel 14250 7475 3    50   BiDi ~ 0
 SS
 Text HLabel 14550 7475 3    50   BiDi ~ 0
@@ -2063,17 +2039,47 @@ Connection ~ 6475 10150
 $Comp
 L W25Q64JV:W25Q64JV U24
 U 1 1 5EED1082
-P 14075 8875
-F 0 "U24" H 14075 8550 50  0000 C CNN
-F 1 "W25Q64JV" H 14075 9199 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 14075 8475 50  0001 C CNN
-F 3 "https://www.winbond.com/resource-files/w25q64jv%20revj%2003272018%20plus.pdf" H 14075 8475 50  0001 C CNN
-F 4 "IC FLASH 64M SPI 133MHZ 8SOIC" H 14075 8875 50  0001 C CNN "Description"
-F 5 "W25Q64JVSSIMCT-ND" H 14075 8875 50  0001 C CNN "Digikey"
-F 6 "Winbond Electronics" H 14075 8875 50  0001 C CNN "Mfg Name"
-F 7 "W25Q64JVSSIM TR" H 14075 8875 50  0001 C CNN "Mfg Part Num"
-F 8 "Spec" H 14075 8875 50  0001 C CNN "Spec"
-	1    14075 8875
+P 11500 3050
+F 0 "U24" H 11500 2725 50  0000 C CNN
+F 1 "W25Q64JV" H 11500 3374 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 11500 2650 50  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/w25q64jv%20revj%2003272018%20plus.pdf" H 11500 2650 50  0001 C CNN
+F 4 "IC FLASH 64M SPI 133MHZ 8SOIC" H 11500 3050 50  0001 C CNN "Description"
+F 5 "W25Q64JVSSIMCT-ND" H 11500 3050 50  0001 C CNN "Digikey"
+F 6 "Winbond Electronics" H 11500 3050 50  0001 C CNN "Mfg Name"
+F 7 "W25Q64JVSSIM TR" H 11500 3050 50  0001 C CNN "Mfg Part Num"
+F 8 "Spec" H 11500 3050 50  0001 C CNN "Spec"
+	1    11500 3050
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R66
+U 1 1 5CD40B26
+P 13175 2850
+F 0 "R66" V 13275 2850 50  0000 C CNN
+F 1 "10k" V 13175 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13105 2850 50  0001 C CNN
+F 3 "~" H 13175 2850 50  0001 C CNN
+F 4 "RES 10K OHM 5% 1/10W 0603" H -1925 -5275 50  0001 C CNN "Description"
+F 5 "RMCF0603JT10K0CT-ND" H -1925 -5275 50  0001 C CNN "Digikey"
+F 6 "Stackpole Electronics Inc" H -1925 -5275 50  0001 C CNN "Mfg Name"
+F 7 "RMCF0603JT10K0" H -1925 -5275 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -1925 -5275 50  0001 C CNN "Spec"
+	1    13175 2850
+	1    0    0    1   
+$EndComp
+Text HLabel 13250 3000 2    50   BiDi ~ 0
+FLASH_IO3
+Text HLabel 9600 3100 0    50   BiDi ~ 0
+FLASH_IO2
+Wire Wire Line
+	13250 3000 13175 3000
+Wire Wire Line
+	9600 3100 9675 3100
+Connection ~ 9675 3100
+Wire Wire Line
+	9675 3100 10700 3100
+Connection ~ 13175 3000
+Wire Wire Line
+	13175 3000 12300 3000
 $EndSCHEMATC
