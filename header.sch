@@ -207,126 +207,6 @@ Wire Wire Line
 Wire Wire Line
 	1000 5625 1000 5825
 $Comp
-L Device:C C?
-U 1 1 5CD4ED57
-P 1900 5975
-AR Path="/5CAB7CD4/5CD4ED57" Ref="C?"  Part="1" 
-AR Path="/5CB5889B/5CD4ED57" Ref="C?"  Part="1" 
-AR Path="/5ED96D61/5CD4ED57" Ref="C55"  Part="1" 
-F 0 "C55" H 2015 6021 50  0000 L CNN
-F 1 "100nF 6,3 V" H 2015 5930 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1938 5825 50  0001 C CNN
-F 3 "~" H 1900 5975 50  0001 C CNN
-F 4 "CAP CER 0.1UF 50V X7R 0603" H -3750 -1150 50  0001 C CNN "Description"
-F 5 "1276-1000-1-ND" H -3750 -1150 50  0001 C CNN "Digikey"
-F 6 "Samsung Electro-Mechanics" H -3750 -1150 50  0001 C CNN "Mfg Name"
-F 7 "CL10B104KB8NNNC" H -3750 -1150 50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H -3750 -1150 50  0001 C CNN "Spec"
-	1    1900 5975
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1425 6125 1425 6175
-Wire Wire Line
-	1425 6175 1675 6175
-Wire Wire Line
-	1900 6175 1900 6125
-Wire Wire Line
-	1675 6250 1675 6175
-Connection ~ 1675 6175
-Wire Wire Line
-	1675 6175 1900 6175
-Wire Wire Line
-	1425 5825 1425 5775
-Wire Wire Line
-	1425 5775 1650 5775
-Wire Wire Line
-	1900 5775 1900 5825
-Wire Wire Line
-	1650 5725 1650 5775
-Connection ~ 1650 5775
-Wire Wire Line
-	1650 5775 1900 5775
-$Comp
-L Device:C C?
-U 1 1 5CD72815
-P 2375 5975
-AR Path="/5CAB7CD4/5CD72815" Ref="C?"  Part="1" 
-AR Path="/5CB5889B/5CD72815" Ref="C?"  Part="1" 
-AR Path="/5ED96D61/5CD72815" Ref="C56"  Part="1" 
-F 0 "C56" H 2490 6021 50  0000 L CNN
-F 1 "100nF 6,3 V" H 2490 5930 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2413 5825 50  0001 C CNN
-F 3 "~" H 2375 5975 50  0001 C CNN
-F 4 "CAP CER 0.1UF 50V X7R 0603" H -3750 -1150 50  0001 C CNN "Description"
-F 5 "1276-1000-1-ND" H -3750 -1150 50  0001 C CNN "Digikey"
-F 6 "Samsung Electro-Mechanics" H -3750 -1150 50  0001 C CNN "Mfg Name"
-F 7 "CL10B104KB8NNNC" H -3750 -1150 50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H -3750 -1150 50  0001 C CNN "Spec"
-	1    2375 5975
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5CD7281F
-P 2850 5975
-AR Path="/5CAB7CD4/5CD7281F" Ref="C?"  Part="1" 
-AR Path="/5CB5889B/5CD7281F" Ref="C?"  Part="1" 
-AR Path="/5ED96D61/5CD7281F" Ref="C57"  Part="1" 
-F 0 "C57" H 2965 6021 50  0000 L CNN
-F 1 "100nF 6,3 V" H 2965 5930 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2888 5825 50  0001 C CNN
-F 3 "~" H 2850 5975 50  0001 C CNN
-F 4 "CAP CER 0.1UF 50V X7R 0603" H -3750 -1150 50  0001 C CNN "Description"
-F 5 "1276-1000-1-ND" H -3750 -1150 50  0001 C CNN "Digikey"
-F 6 "Samsung Electro-Mechanics" H -3750 -1150 50  0001 C CNN "Mfg Name"
-F 7 "CL10B104KB8NNNC" H -3750 -1150 50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H -3750 -1150 50  0001 C CNN "Spec"
-	1    2850 5975
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2375 6125 2375 6175
-Wire Wire Line
-	2375 6175 2625 6175
-Wire Wire Line
-	2850 6175 2850 6125
-Wire Wire Line
-	2625 6250 2625 6175
-Connection ~ 2625 6175
-Wire Wire Line
-	2625 6175 2850 6175
-Wire Wire Line
-	2375 5825 2375 5775
-Wire Wire Line
-	2375 5775 2600 5775
-Wire Wire Line
-	2850 5775 2850 5825
-Wire Wire Line
-	2600 5725 2600 5775
-Connection ~ 2600 5775
-Wire Wire Line
-	2600 5775 2850 5775
-$Comp
-L Device:C C?
-U 1 1 5CD4AF05
-P 1425 5975
-AR Path="/5CAB7CD4/5CD4AF05" Ref="C?"  Part="1" 
-AR Path="/5CB5889B/5CD4AF05" Ref="C?"  Part="1" 
-AR Path="/5ED96D61/5CD4AF05" Ref="C54"  Part="1" 
-F 0 "C54" H 1540 6021 50  0000 L CNN
-F 1 "100nF 6,3 V" H 1540 5930 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1463 5825 50  0001 C CNN
-F 3 "~" H 1425 5975 50  0001 C CNN
-F 4 "CAP CER 0.1UF 50V X7R 0603" H -3750 -1150 50  0001 C CNN "Description"
-F 5 "1276-1000-1-ND" H -3750 -1150 50  0001 C CNN "Digikey"
-F 6 "Samsung Electro-Mechanics" H -3750 -1150 50  0001 C CNN "Mfg Name"
-F 7 "CL10B104KB8NNNC" H -3750 -1150 50  0001 C CNN "Mfg Part Num"
-F 8 "Any" H -3750 -1150 50  0001 C CNN "Spec"
-	1    1425 5975
-	1    0    0    -1  
-$EndComp
-$Comp
 L ECS-3225S:ECS-3225S33 Y?
 U 1 1 5E36217B
 P 8800 3300
@@ -412,17 +292,9 @@ Text HLabel 7325 875  1    50   BiDi ~ 0
 5V
 Text HLabel 10075 775  1    50   BiDi ~ 0
 5V
-Text HLabel 1650 5725 1    50   BiDi ~ 0
-3V3
-Text HLabel 2600 5725 1    50   BiDi ~ 0
-5V
 Text HLabel 9975 2325 3    50   BiDi ~ 0
 GND
 Text HLabel 7225 2425 3    50   BiDi ~ 0
-GND
-Text HLabel 2625 6250 3    50   BiDi ~ 0
-GND
-Text HLabel 1675 6250 3    50   BiDi ~ 0
 GND
 Text HLabel 850  6250 3    50   BiDi ~ 0
 GND

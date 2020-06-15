@@ -207,4 +207,136 @@ Text HLabel 4250 1700 0    50   BiDi ~ 0
 INO_SDA
 Text HLabel 4250 1800 0    50   Output ~ 0
 INO_AREF
+$Comp
+L Device:C C?
+U 1 1 5F1FEE68
+P 2850 4375
+AR Path="/5CAB7CD4/5F1FEE68" Ref="C?"  Part="1" 
+AR Path="/5CB5889B/5F1FEE68" Ref="C?"  Part="1" 
+AR Path="/5ED96D61/5F1FEE68" Ref="C?"  Part="1" 
+AR Path="/5ED96D61/5EE3E16B/5F1FEE68" Ref="C55"  Part="1" 
+F 0 "C55" H 2965 4421 50  0000 L CNN
+F 1 "100nF 6,3 V" H 2965 4330 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2888 4225 50  0001 C CNN
+F 3 "~" H 2850 4375 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H -2800 -2750 50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H -2800 -2750 50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H -2800 -2750 50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H -2800 -2750 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -2800 -2750 50  0001 C CNN "Spec"
+	1    2850 4375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2375 4525 2375 4575
+Wire Wire Line
+	2375 4575 2625 4575
+Wire Wire Line
+	2850 4575 2850 4525
+Wire Wire Line
+	2625 4650 2625 4575
+Connection ~ 2625 4575
+Wire Wire Line
+	2625 4575 2850 4575
+Wire Wire Line
+	2375 4225 2375 4175
+Wire Wire Line
+	2375 4175 2600 4175
+Wire Wire Line
+	2850 4175 2850 4225
+Wire Wire Line
+	2600 4125 2600 4175
+Connection ~ 2600 4175
+Wire Wire Line
+	2600 4175 2850 4175
+$Comp
+L Device:C C?
+U 1 1 5F1FEE7F
+P 3325 4375
+AR Path="/5CAB7CD4/5F1FEE7F" Ref="C?"  Part="1" 
+AR Path="/5CB5889B/5F1FEE7F" Ref="C?"  Part="1" 
+AR Path="/5ED96D61/5F1FEE7F" Ref="C?"  Part="1" 
+AR Path="/5ED96D61/5EE3E16B/5F1FEE7F" Ref="C56"  Part="1" 
+F 0 "C56" H 3440 4421 50  0000 L CNN
+F 1 "100nF 6,3 V" H 3440 4330 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3363 4225 50  0001 C CNN
+F 3 "~" H 3325 4375 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H -2800 -2750 50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H -2800 -2750 50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H -2800 -2750 50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H -2800 -2750 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -2800 -2750 50  0001 C CNN "Spec"
+	1    3325 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F1FEE8A
+P 3800 4375
+AR Path="/5CAB7CD4/5F1FEE8A" Ref="C?"  Part="1" 
+AR Path="/5CB5889B/5F1FEE8A" Ref="C?"  Part="1" 
+AR Path="/5ED96D61/5F1FEE8A" Ref="C?"  Part="1" 
+AR Path="/5ED96D61/5EE3E16B/5F1FEE8A" Ref="C57"  Part="1" 
+F 0 "C57" H 3915 4421 50  0000 L CNN
+F 1 "100nF 6,3 V" H 3915 4330 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3838 4225 50  0001 C CNN
+F 3 "~" H 3800 4375 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H -2800 -2750 50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H -2800 -2750 50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H -2800 -2750 50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H -2800 -2750 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -2800 -2750 50  0001 C CNN "Spec"
+	1    3800 4375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 4525 3325 4575
+Wire Wire Line
+	3325 4575 3575 4575
+Wire Wire Line
+	3800 4575 3800 4525
+Wire Wire Line
+	3575 4650 3575 4575
+Connection ~ 3575 4575
+Wire Wire Line
+	3575 4575 3800 4575
+Wire Wire Line
+	3325 4225 3325 4175
+Wire Wire Line
+	3325 4175 3550 4175
+Wire Wire Line
+	3800 4175 3800 4225
+Wire Wire Line
+	3550 4125 3550 4175
+Connection ~ 3550 4175
+Wire Wire Line
+	3550 4175 3800 4175
+$Comp
+L Device:C C?
+U 1 1 5F1FEEA1
+P 2375 4375
+AR Path="/5CAB7CD4/5F1FEEA1" Ref="C?"  Part="1" 
+AR Path="/5CB5889B/5F1FEEA1" Ref="C?"  Part="1" 
+AR Path="/5ED96D61/5F1FEEA1" Ref="C?"  Part="1" 
+AR Path="/5ED96D61/5EE3E16B/5F1FEEA1" Ref="C54"  Part="1" 
+F 0 "C54" H 2490 4421 50  0000 L CNN
+F 1 "100nF 6,3 V" H 2490 4330 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2413 4225 50  0001 C CNN
+F 3 "~" H 2375 4375 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R 0603" H -2800 -2750 50  0001 C CNN "Description"
+F 5 "1276-1000-1-ND" H -2800 -2750 50  0001 C CNN "Digikey"
+F 6 "Samsung Electro-Mechanics" H -2800 -2750 50  0001 C CNN "Mfg Name"
+F 7 "CL10B104KB8NNNC" H -2800 -2750 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H -2800 -2750 50  0001 C CNN "Spec"
+	1    2375 4375
+	1    0    0    -1  
+$EndComp
+Text HLabel 2600 4125 1    50   BiDi ~ 0
+3V3
+Text HLabel 3550 4125 1    50   BiDi ~ 0
+5V
+Text HLabel 3575 4650 3    50   BiDi ~ 0
+GND
+Text HLabel 2625 4650 3    50   BiDi ~ 0
+GND
 $EndSCHEMATC

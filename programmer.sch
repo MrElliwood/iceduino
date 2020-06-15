@@ -2068,18 +2068,56 @@ F 8 "Any" H -1925 -5275 50  0001 C CNN "Spec"
 	1    13175 2850
 	1    0    0    1   
 $EndComp
-Text HLabel 13250 3000 2    50   BiDi ~ 0
+Text HLabel 13750 3000 2    50   BiDi ~ 0
 FLASH_IO3
-Text HLabel 9600 3100 0    50   BiDi ~ 0
+Text HLabel 9125 3100 0    50   BiDi ~ 0
 FLASH_IO2
 Wire Wire Line
-	13250 3000 13175 3000
-Wire Wire Line
-	9600 3100 9675 3100
-Connection ~ 9675 3100
-Wire Wire Line
 	9675 3100 10700 3100
-Connection ~ 13175 3000
 Wire Wire Line
 	13175 3000 12300 3000
+$Comp
+L Device:R R?
+U 1 1 5F23BC79
+P 9375 3100
+AR Path="/5CAB7CD4/5F23BC79" Ref="R?"  Part="1" 
+AR Path="/5CB5889B/5F23BC79" Ref="R?"  Part="1" 
+AR Path="/5ED96D61/5F23BC79" Ref="R?"  Part="1" 
+AR Path="/5ED0B946/5F23BC79" Ref="R67"  Part="1" 
+F 0 "R67" V 9275 3100 50  0000 C CNN
+F 1 "0" V 9200 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9305 3100 50  0001 C CNN
+F 3 "~" H 9375 3100 50  0001 C CNN
+F 4 "" V 9490 3100 50  0000 C CNN "DNP"
+	1    9375 3100
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F254C66
+P 13475 3000
+AR Path="/5CAB7CD4/5F254C66" Ref="R?"  Part="1" 
+AR Path="/5CB5889B/5F254C66" Ref="R?"  Part="1" 
+AR Path="/5ED96D61/5F254C66" Ref="R?"  Part="1" 
+AR Path="/5ED0B946/5F254C66" Ref="R68"  Part="1" 
+F 0 "R68" V 13375 3000 50  0000 C CNN
+F 1 "0" V 13300 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13405 3000 50  0001 C CNN
+F 3 "~" H 13475 3000 50  0001 C CNN
+F 4 "" V 13590 3000 50  0000 C CNN "DNP"
+	1    13475 3000
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	13175 3000 13325 3000
+Connection ~ 13175 3000
+Wire Wire Line
+	13625 3000 13750 3000
+Wire Wire Line
+	9675 3100 9525 3100
+Connection ~ 9675 3100
+Wire Wire Line
+	9225 3100 9125 3100
+Text Notes 10825 2575 0    50   ~ 0
+Place R66 and R67 for quad-SPI setup. \nPlace R63 and R68 instead to \ndisable write protection and hold.
 $EndSCHEMATC
