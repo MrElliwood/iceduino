@@ -636,65 +636,65 @@ Text Label 4775 5650 0    50   ~ 0
 P2_2
 Wire Wire Line
 	4775 5650 5000 5650
-Text Label 4775 5450 0    50   ~ 0
+Text Label 4775 5550 0    50   ~ 0
 P3_2
 Wire Wire Line
 	4775 5450 5000 5450
-Text Label 4775 5250 0    50   ~ 0
+Text Label 4775 5450 0    50   ~ 0
 P4_2
 Wire Wire Line
 	4775 5250 5000 5250
-Text Label 4775 5550 0    50   ~ 0
+Text Label 4775 5050 0    50   ~ 0
 P7_2
 Wire Wire Line
 	4775 5550 5000 5550
-Text Label 4775 4750 0    50   ~ 0
+Text Label 4775 5150 0    50   ~ 0
 P8_2
 Wire Wire Line
 	4775 4750 5000 4750
-Text Label 4775 4950 0    50   ~ 0
+Text Label 4775 5250 0    50   ~ 0
 P9_2
 Wire Wire Line
 	4775 4950 5000 4950
-Text Label 4775 5350 0    50   ~ 0
+Text Label 4775 4350 0    50   ~ 0
 P1_3
 Wire Wire Line
 	4775 5350 5000 5350
-Text Label 4775 5050 0    50   ~ 0
+Text Label 4775 4550 0    50   ~ 0
 P2_3
 Wire Wire Line
 	4775 5050 5000 5050
-Text Label 4775 4550 0    50   ~ 0
+Text Label 4775 4750 0    50   ~ 0
 P3_3
 Wire Wire Line
 	4775 4550 5000 4550
-Text Label 4775 4450 0    50   ~ 0
+Text Label 4775 4950 0    50   ~ 0
 P4_3
 Wire Wire Line
 	4775 4450 5000 4450
-Text Label 4775 4850 0    50   ~ 0
+Text Label 4775 4250 0    50   ~ 0
 P7_3
 Wire Wire Line
 	4775 4850 5000 4850
-Text Label 4775 4650 0    50   ~ 0
+Text Label 4775 4450 0    50   ~ 0
 P8_3
 Wire Wire Line
 	4775 4650 5000 4650
-Text Label 4775 4250 0    50   ~ 0
+Text Label 4775 4650 0    50   ~ 0
 P9_3
 Wire Wire Line
 	4775 4250 5000 4250
-Text Label 4775 4350 0    50   ~ 0
+Text Label 4775 4850 0    50   ~ 0
 P10_3
 Wire Wire Line
 	4775 4350 5000 4350
 Wire Wire Line
 	4425 6150 5000 6150
-Text Label 4425 6150 0    50   ~ 0
+Text Label 4425 6350 0    50   ~ 0
 FPGA_INO_SCK
 Wire Wire Line
 	4425 6250 5000 6250
-Text Label 4425 6250 0    50   ~ 0
+Text Label 4425 6450 0    50   ~ 0
 FPGA_INO_MISO
 Wire Wire Line
 	4425 6550 5000 6550
@@ -702,31 +702,31 @@ Text Label 4425 6550 0    50   ~ 0
 FPGA_INO_MOSI
 Wire Wire Line
 	4425 6650 5000 6650
-Text Label 4425 6650 0    50   ~ 0
+Text Label 4425 6950 0    50   ~ 0
 FPGA_INO_SS
 Wire Wire Line
 	4425 6750 5000 6750
-Text Label 4425 6750 0    50   ~ 0
+Text Label 4425 6850 0    50   ~ 0
 FPGA_INO_D9
 Wire Wire Line
 	4425 6850 5000 6850
-Text Label 4425 6850 0    50   ~ 0
+Text Label 4425 6750 0    50   ~ 0
 FPGA_INO_D8
 Wire Wire Line
 	4425 6450 5000 6450
-Text Label 4425 6450 0    50   ~ 0
+Text Label 4425 6150 0    50   ~ 0
 FPGA_INO_SCL
 Wire Wire Line
 	4425 6350 5000 6350
-Text Label 4425 6350 0    50   ~ 0
+Text Label 4425 6250 0    50   ~ 0
 FPGA_INO_SDA
 Wire Wire Line
 	4425 6950 5000 6950
-Text Label 4425 6950 0    50   ~ 0
+Text Label 4425 6650 0    50   ~ 0
 OE1
 Wire Wire Line
 	4775 5150 5000 5150
-Text Label 4775 5150 0    50   ~ 0
+Text Label 4775 5350 0    50   ~ 0
 P10_2
 Text Label 4425 5950 0    50   ~ 0
 PMOD_PWR_EN
