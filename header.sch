@@ -43,11 +43,11 @@ Text Label 8025 1750 2    50   ~ 0
 INO_MOSI
 Wire Wire Line
 	8025 1750 7625 1750
-Text Label 8025 1650 2    50   ~ 0
+Text Label 8025 1550 2    50   ~ 0
 INO_MISO
 Wire Wire Line
 	8025 1650 7625 1650
-Text Label 8025 1550 2    50   ~ 0
+Text Label 8025 1650 2    50   ~ 0
 INO_SCK
 Wire Wire Line
 	8025 1550 7625 1550
@@ -57,12 +57,8 @@ Wire Wire Line
 	9975 2325 9975 2250
 Wire Wire Line
 	9875 775  9875 850 
-Text Label 10775 1950 2    50   ~ 0
-INO_RX
 Wire Wire Line
 	10775 1950 10375 1950
-Text Label 10775 1850 2    50   ~ 0
-INO_TX
 Wire Wire Line
 	10775 1850 10375 1850
 Text Label 10775 1750 2    50   ~ 0
@@ -158,15 +154,15 @@ Text HLabel 9575 1150 0    50   Input ~ 0
 OE0
 Text HLabel 6825 1250 0    50   Input ~ 0
 OE1
-Text HLabel 9575 1850 0    50   Input ~ 0
+Text HLabel 9575 1950 0    50   Input ~ 0
 FPGA_INO_TX
-Text HLabel 9575 1950 0    50   Output ~ 0
+Text HLabel 9575 1850 0    50   Output ~ 0
 FPGA_INO_RX
 Text HLabel 6825 1350 0    50   BiDi ~ 0
 FPGA_INO_SCL
-Text HLabel 6825 1550 0    50   BiDi ~ 0
-FPGA_INO_SCK
 Text HLabel 6825 1650 0    50   BiDi ~ 0
+FPGA_INO_SCK
+Text HLabel 6825 1550 0    50   BiDi ~ 0
 FPGA_INO_MISO
 Text HLabel 6825 1750 0    50   BiDi ~ 0
 FPGA_INO_MOSI
@@ -1392,4 +1388,8 @@ Wire Wire Line
 	8100 3475 7750 3475
 Wire Wire Line
 	7750 3475 7750 3450
+Text Label 10775 1850 2    50   ~ 0
+INO_RX
+Text Label 10775 1950 2    50   ~ 0
+INO_TX
 $EndSCHEMATC

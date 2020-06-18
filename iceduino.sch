@@ -690,11 +690,11 @@ Wire Wire Line
 	4775 4350 5000 4350
 Wire Wire Line
 	4425 6150 5000 6150
-Text Label 4425 6350 0    50   ~ 0
+Text Label 4425 6450 0    50   ~ 0
 FPGA_INO_SCK
 Wire Wire Line
 	4425 6250 5000 6250
-Text Label 4425 6450 0    50   ~ 0
+Text Label 4425 6350 0    50   ~ 0
 FPGA_INO_MISO
 Wire Wire Line
 	4425 6550 5000 6550
@@ -833,21 +833,21 @@ Text Label 15550 4650 2    50   ~ 0
 P10_2
 Text Label 15550 4550 2    50   ~ 0
 P9_2
-Text Label 7050 2650 3    50   ~ 0
+Text Label 7650 2650 3    50   ~ 0
 P7_1
-Text Label 7150 2650 3    50   ~ 0
+Text Label 7750 2650 3    50   ~ 0
 P1_1
-Text Label 7250 2650 3    50   ~ 0
+Text Label 7550 2650 3    50   ~ 0
 P8_1
-Text Label 7350 2650 3    50   ~ 0
+Text Label 7050 2650 3    50   ~ 0
 P2_1
 Text Label 7450 2650 3    50   ~ 0
 P9_1
-Text Label 7550 2650 3    50   ~ 0
+Text Label 7150 2650 3    50   ~ 0
 P3_1
-Text Label 7650 2650 3    50   ~ 0
+Text Label 7350 2650 3    50   ~ 0
 P10_1
-Text Label 7750 2650 3    50   ~ 0
+Text Label 7250 2650 3    50   ~ 0
 P4_1
 $Comp
 L ice40hx4k:ICE40HX4K-TQ144 U1
@@ -904,11 +904,11 @@ Wire Wire Line
 	6550 9475 6550 8900
 Wire Wire Line
 	6250 9475 6250 8900
-Text Label 6250 9475 1    50   ~ 0
+Text Label 6350 9475 1    50   ~ 0
 FPGA_INO_TX
 Wire Wire Line
 	6350 9475 6350 8900
-Text Label 6350 9475 1    50   ~ 0
+Text Label 6250 9475 1    50   ~ 0
 FPGA_INO_RX
 Wire Wire Line
 	7850 9450 7850 8900
