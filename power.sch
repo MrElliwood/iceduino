@@ -4,9 +4,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 14
-Title ""
-Date ""
-Rev ""
+Title "ICE40HX4K ICEduino educational breakout board"
+Date "2020-06-19"
+Rev "1"
 Comp ""
 Comment1 ""
 Comment2 ""
