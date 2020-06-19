@@ -547,6 +547,11 @@ F 0 "JP1" V 8304 3073 50  0000 L CNN
 F 1 "VBUS_EN" V 8395 3073 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8350 3025 50  0001 C CNN
 F 3 "~" H 8350 3025 50  0001 C CNN
+F 4 "CONN HEADER VERT 2POS 2.54MM" H 8350 3025 50  0001 C CNN "Description"
+F 5 "S1011EC-02-ND" H 8350 3025 50  0001 C CNN "Digikey"
+F 6 "Sullins Connector Solutions" H 8350 3025 50  0001 C CNN "Mfg Name"
+F 7 "PRPC002SAAN-RC" H 8350 3025 50  0001 C CNN "Mfg Part Num"
+F 8 "Any" H 8350 3025 50  0001 C CNN "Spec"
 	1    8350 3025
 	0    1    1    0   
 $EndComp
